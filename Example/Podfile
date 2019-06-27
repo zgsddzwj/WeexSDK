@@ -1,0 +1,6 @@
+use_frameworks!
+target 'WeexSDK_Tests' do
+  pod 'WeexSDK', :path => '../'
+  
+  
+end
