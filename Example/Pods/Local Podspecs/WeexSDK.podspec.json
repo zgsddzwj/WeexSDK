@@ -1,0 +1,22 @@
+{
+  "name": "WeexSDK",
+  "version": "0.1.0",
+  "summary": "A short description of WeexSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/adward.wang/WeexSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "adward.wang": "adward.wang@geekbang.com"
+  },
+  "source": {
+    "git": "https://github.com/adward.wang/WeexSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WeexSDK/Classes/**/*"
+}
