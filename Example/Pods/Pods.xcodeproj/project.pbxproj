@@ -7,13 +7,287 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0ABCC245BE2AD659A51BB3B2AB1C13E3 /* WeexSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 162AD480FF45048CF2BFC61737BF972B /* WeexSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		003DF2839ABEA59FB025F165FDE9A83E /* WXRootView.m in Sources */ = {isa = PBXBuildFile; fileRef = D51AECB4C10864F77EBF18C9FFF168E1 /* WXRootView.m */; };
+		013724BFD84FED68BA5B10D622BDE494 /* WXVideoComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = C254C87D0C5D6FDDBC54290CE22B1480 /* WXVideoComponent.m */; };
+		03DEDAC5659B57E1260807DBA9BB2F0E /* WXType.h in Headers */ = {isa = PBXBuildFile; fileRef = 08BE5DF94CF1CDC77236B68CE89AB5FF /* WXType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06B7DE352F47C014E91A12B37B17794B /* WXScrollerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = C387F03ED629B2EF4817204200345A8E /* WXScrollerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		092E6D288B2F50757800B72CC1207834 /* WXErrorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 728B00D6A0B7557AC31979F14B3A3D67 /* WXErrorView.m */; };
+		0939622988C156B54E4B9B533404FF94 /* WXMultiColumnLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A7930C406C14BA01F357370A5D988 /* WXMultiColumnLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AB4C23A0FF4D2A5E3E6851BF810D11D /* WXClipboardModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A42ED75C622624766471A9C67D909BD2 /* WXClipboardModule.m */; };
+		0D01F32508B8CF0B1E97BCC2D8735A92 /* WXJSExceptionProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = FAF49233D4760310A8C9A33ACFF4B61E /* WXJSExceptionProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D8C4A0A695C93523268DF0406E90F6A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2AB33160D9C9E43762461A56B593F230 /* README.md */; };
+		0DBF0C517EB38B9CD4E092096B6B41BD /* WXSwitchComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 492DCA98FF4CFC06973CAC1DE31E6DC6 /* WXSwitchComponent.m */; };
+		0E8546C182C80BF3787740C946547F9B /* WXRecyclerDataController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9650E7E8F5428D461676E828D440C0D3 /* WXRecyclerDataController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		107477ADCE7B9B840DAA500C0AFA7490 /* WXSectionDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECE5436CE8C45C06DFE25488B8238CC /* WXSectionDataController.m */; };
+		11DC849A989C960906F00452947AA8C7 /* Layout.c in Sources */ = {isa = PBXBuildFile; fileRef = 404F334D0C6AE37DBBA05369343D2DC6 /* Layout.c */; };
+		12D9F33543D531212683245D115BB822 /* WXInnerLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 652A0824DCD658955026A21B46C4ADDE /* WXInnerLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		131F69D7F28EDF662D08282A212C2253 /* WXComponentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BC6A1D31B3E49D5B757A19CBE9FF1F /* WXComponentManager.m */; };
+		1329FEA2ECA19C65DC9F7E36D6E2C571 /* WXComponent+Display.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A8C3DA42A92027BB80B0E925B34770 /* WXComponent+Display.m */; };
+		134FB0332233628065EA0C0CAE93A3F9 /* WXRuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E09DBA76A601C66F9F709CBCF2DBD89 /* WXRuleManager.m */; };
+		15C6B8EA7A357AEA1A26DBBB4C12CB46 /* WXSDKEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = A934DA5498EDBAFEBD60D3347B0DAF44 /* WXSDKEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1622B8AA7CD0AC0DD2B5B432DF053CD7 /* WXWebSocketModule.h in Headers */ = {isa = PBXBuildFile; fileRef = C7FE930426D0221DB90E708783CBBB7E /* WXWebSocketModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		167FFC20D57BBAC6CF19B155920C4056 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		623123496251B29A11ED9E188FCA17A7 /* WeexSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA9CCF7D55C3C40B9F9D3206E331AD44 /* WeexSDK-dummy.m */; };
-		6DE16E752E2E7F8505B00D799C071034 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		16B44C9CE4000CBBA4E4B5F8B014E53F /* WXSDKInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD3000642860722200178A2BF1AB96C /* WXSDKInstance.m */; };
+		17479FCDE3717BC261A07916FD93A2D1 /* WXComponent+Display.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AECF0F793E9E732F4127B5A50195901 /* WXComponent+Display.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17A023632D943D7A6F3573F918F17B4C /* WXThreadSafeCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A358ACEBB50991DB65699855C85D9B6 /* WXThreadSafeCounter.m */; };
+		19F1D69A3526F1A0F9E400C031E8BB72 /* WXComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A824CD79B77A04CEB0D65E83C53DD81 /* WXComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B9EB1942E3353FF6AE1B7DA8FF49977 /* WXDebugTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D57191AA665C25C0518DB6327F09D4A2 /* WXDebugTool.m */; };
+		1DF57545C8652A814E2F95C6E3A4AEC4 /* WXCanvasModule.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AC9AB4C1B423A9CE21B943F9902978 /* WXCanvasModule.m */; };
+		1E288934389DFCA649CD23ABDEA7725F /* WXLoadingIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 737762B874D8C3ACF0528917946E9669 /* WXLoadingIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EFF200EDF3D78351E4653DCEBA9A15B /* WXRecycleListLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CEA7C7503D03E96AC473A7B5B5BEE03 /* WXRecycleListLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F75F8B4CE0C7A48293F1F6173B1D9D3 /* WXRecycleListTemplateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 194C4D932AC943BF23350999470798E4 /* WXRecycleListTemplateManager.m */; };
+		20EEB45D19F4369F9E3599B8975E7C2E /* WXView.m in Sources */ = {isa = PBXBuildFile; fileRef = C35BB07D09E0D7216EC6CDD7734EE715 /* WXView.m */; };
+		241A356E9333B43E7AC329296C339A65 /* WXAppMonitorProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 40529A1240DE67D882B02E8F6217DACF /* WXAppMonitorProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24F2694E1B71BE77F2C60108BA8F4939 /* WXTimerModule.h in Headers */ = {isa = PBXBuildFile; fileRef = CD307FBB53D2A8BD77B2DD82CF99F8FF /* WXTimerModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26890F77AABB61007BEC044D5CBB92F4 /* WXModalUIModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 447B75E62E5CFF9049C0AD9202BF42C4 /* WXModalUIModule.m */; };
+		277825EEEA420A70CF3FB897472829F5 /* WXSDKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6252087B5B59B4131DA007C1D3B5A0 /* WXSDKManager.m */; };
+		278C1BB3A37E2CBC8970A0FB5927CC8B /* WXTracingProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = C98897E6CA752EF78B3C577A96400DB1 /* WXTracingProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A3DA2B2458FA92D43715B7500A9EF7C /* WXSDKManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 06D0226663629FE49B31DC7565F94D2C /* WXSDKManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A4E68A65CFBCEDDC56378E9FF1DC847 /* WXTimerModule.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE31BCC85453C347AFE3264BABCF88A /* WXTimerModule.m */; };
+		2BD68EE8686628A6B0403FBC32714B5C /* WXAnimationModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C6F318464D6A2F1700750FDBC2E1D90 /* WXAnimationModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BF9B2AD5E7AD08BAA9F19016DE603E3 /* WXSimulatorShortcutManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 67F2053BE6B420921120B2FC7FDD163B /* WXSimulatorShortcutManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D05ED6F2832BCEE93FFB03F4289F6D7 /* WXWebSocketHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = B8C9E9A2D9FA416D315C17C7B00E144B /* WXWebSocketHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E2F6346C4697496B7DA2CAAB0E01A4B /* WXThreadSafeMutableDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 63883BE632F8B4C366AD219AB1AD6872 /* WXThreadSafeMutableDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F03409070FFB1D025CE51085852727E /* NSTimer+Weex.m in Sources */ = {isa = PBXBuildFile; fileRef = 0430B073C4A84A25BF223F219EB31165 /* NSTimer+Weex.m */; };
+		2FA6C05D94FEC653DF11744805CFFE00 /* WXModuleMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B1B44D4B4BBC9EE8A1F20E186D1367 /* WXModuleMethod.m */; };
+		2FADA8309C3A75B16443F601BA941798 /* WXRecyclerDragController.h in Headers */ = {isa = PBXBuildFile; fileRef = 30CD5155EC20ADF30742E2FC84C945A0 /* WXRecyclerDragController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30BCBD019E92B931A8A1E94EC1BAE163 /* WXImgLoaderProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 398D420DBA46C38F29F7CBB9676BD4B9 /* WXImgLoaderProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		310CB948AE84D4255D6F1AF53DCCC6E0 /* WXBoxShadow.h in Headers */ = {isa = PBXBuildFile; fileRef = AC7F1BF999D9A58750D0DA6A2B1B6A9D /* WXBoxShadow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31DB61CB676D050EBDAE40A997A57B41 /* WXErrorView.h in Headers */ = {isa = PBXBuildFile; fileRef = D2E34BE65ACBB3ACC0DE16B9C9AD9A7A /* WXErrorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32352BBD763658DBE6ACDDEED18CA896 /* WXHandlerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E95CE6F77311A4042BAFC1F9205E22 /* WXHandlerFactory.m */; };
+		326CD7218CE9DA59BA84A6C80FB31044 /* WXRoundedRect.mm in Sources */ = {isa = PBXBuildFile; fileRef = 26AD61285D1E917E9A49693C6CFE566D /* WXRoundedRect.mm */; };
+		331674D85BF2BF6666A9B38A93A0B835 /* WXRecyclerUpdateController.h in Headers */ = {isa = PBXBuildFile; fileRef = CEE89A25880D27E7B8AE360DD6BAFF66 /* WXRecyclerUpdateController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		336CD64510DC3B5EDC3A6C3FCBDD1FC1 /* WXDestroyProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 90C083AC55496B7D9BA4632D2C49C9F0 /* WXDestroyProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33A55E716D2B25B4C1AC429671D70676 /* WXComponent+Navigation.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BF4BF5E9931AF49FA079EAE6712A3C /* WXComponent+Navigation.m */; };
+		33B40053BA674668758D781BA343D6FD /* WXComponent+Events.h in Headers */ = {isa = PBXBuildFile; fileRef = 35F232C6CB0CED1DBB10CC74BA6D7761 /* WXComponent+Events.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33F7B17BAC2A5396EB04D1DBD7ED9946 /* WXTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 270BEE358238D68C082129A2A2B739BD /* WXTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		366A7A50B9CB9011D1B477FB77541280 /* WXComponentMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F17840C33E9C9A11A11AFFEDB54118C /* WXComponentMethod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38D72C460F5F315E32875DE14549D6E0 /* WXTracingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FD8605E6C7D11A3799F566364026E32F /* WXTracingManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39E95FBACB1084416AC87E1EA87D75AA /* WXNavigationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 9356AED7454EFBBCB04BD22097B30120 /* WXNavigationProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A2A58A49A783B87F7A37E8A69EB63CD /* WXStorageModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 816B57CB4CCE0D6E7876925DA87D781E /* WXStorageModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A847C74D4BAC0846D195AA762C5243D /* WXDivComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = F4D9217591A9586148D54BC1FF10B199 /* WXDivComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AC95AD88ABA408EBA34547505C1293F /* WXTextAreaComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5E1F6C521C134C0749DD8B71F417AF /* WXTextAreaComponent.m */; };
+		3D906344E1D03D96CD3ED2BE42FD5F1B /* WXTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = 65481C28FA5F14F979285E88068D0634 /* WXTransform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E16258F78C1DA95F598E4D13566852B /* WXCellComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF46840FE54A2299367547CDCD763D8 /* WXCellComponent.m */; };
+		3FB9461D3C0C170A23FD3798EFEDF0A7 /* WXVideoComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 52DCEE038499D9D6C78731A4C58AABF8 /* WXVideoComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FD6ED346D4A8F7F12128DD640A016F8 /* WXLoadingComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 5821138CDCAE4E44A4D11A758FE84F6A /* WXLoadingComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40CB35E608B8DF0387045EDF20159CA5 /* WXNavigatorModule.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE20F67D35EC4C1B4F9D23D1D40CCA2 /* WXNavigatorModule.m */; };
+		41345B746425DABD58CE8B18C56B4552 /* WXCycleSliderComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E4DDCBD9EAD1C498538C9A3BF9889ED /* WXCycleSliderComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		419E2A8144AEBC5015CB3F0578DA4BDE /* WXRecycleListComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 405B716A2C0649B3F89EECD04A2461A0 /* WXRecycleListComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		422A3E436B05B3761DC6E2260B7DD798 /* WXModuleFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 680EB27CD81F668995B1636FA98DDED0 /* WXModuleFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		427584DD0D372504FA33E505E3EEB79C /* WXCycleSliderComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDE1BFA586D7FEC1B29FD745602620F /* WXCycleSliderComponent.m */; };
+		4301EA7C13B13F474970EAA3568FA497 /* WXDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 25E09AE77CAB36D197AE07CC6BCA1F6E /* WXDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43C54F8A57073312B9DD599D4E287EAD /* WXLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 647F13F104A8573FF86F22E456994265 /* WXLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		452324156E054F665ADBF5B1F73EC9F4 /* WXAppConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 61DB17A4B7ADAC23A8026E7321792AC8 /* WXAppConfiguration.m */; };
+		462F46EAEEAA729549DD0EFC68F7BF2F /* WXResourceResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CEC12584DEB5D5C5436BEDA4D9EA220 /* WXResourceResponse.m */; };
+		466B04FFA6C92DC0304E1C3D95DFF695 /* WXAComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6C70854F9B96F4E3E407168EE53B64 /* WXAComponent.m */; };
+		470D1A532BBDACA49041180F528596DC /* WXLength.h in Headers */ = {isa = PBXBuildFile; fileRef = F6794E21B03CF2D33411CB671434426E /* WXLength.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48672472AB50250128E1DD8FC4FC7E40 /* NSTimer+Weex.h in Headers */ = {isa = PBXBuildFile; fileRef = 25BD5D7574BC727688F8ABA87EE390F3 /* NSTimer+Weex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		489279C067992F17EB52E885E7435296 /* WXTextInputComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = E1ADBFE621BB71295A1C1530E1EDCDFA /* WXTextInputComponent.m */; };
+		48E88A35A9248979795864398B4CBBD2 /* WXPrerenderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3157DE6247DF1EC2486117328B9DC441 /* WXPrerenderManager.m */; };
+		490961B98FF70282D91936A96E71A143 /* WXWebComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = A20B84155BF18C37D12C30423D2E927B /* WXWebComponent.m */; };
+		494A42E10662DB0BF1450FA650FAC156 /* WXAssert.m in Sources */ = {isa = PBXBuildFile; fileRef = 6693863C83751C8D052F623BCF691AE4 /* WXAssert.m */; };
+		49796654216CD456C53BF1A245B43608 /* WXDisplayQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = F14A0635787F72094DFC207413B0594D /* WXDisplayQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AF4DDC2B478696956CAD8493765D928 /* WXAssert.h in Headers */ = {isa = PBXBuildFile; fileRef = 3442F1156AAAB48A27FADE9F833C91A7 /* WXAssert.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C679A6D33464F40987C584453EE4E66 /* WXWebViewModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 4217ECABAAC7D4C9BD8CD8B778230DE4 /* WXWebViewModule.m */; };
+		4CA8FDB89B7D9DF5828EE0FB48D86075 /* UIBezierPath+Weex.h in Headers */ = {isa = PBXBuildFile; fileRef = 6600DB5E05DAF693634966FEF3B702C5 /* UIBezierPath+Weex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D53B07299DFACC751F1A76C77256646 /* WXSliderNeighborComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 483AD00A51ECE6ED29D18FF4B8371954 /* WXSliderNeighborComponent.m */; };
+		4D554B9DA46B234F9BE01226C3583E5E /* JSValue+Weex.m in Sources */ = {isa = PBXBuildFile; fileRef = 93ED144ACE50B8D69C5CD9CC89AB80E1 /* JSValue+Weex.m */; };
+		4E3F122F0AFB0330B08B119E4AAFD1B8 /* WXPrerenderManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6039DF3FCC30418E040970ECD215FCA8 /* WXPrerenderManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E9D788FC140CFC12C025D2087B0F1FA /* WXDomModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B9BCA0613DF9BA26D49FA89817B2950 /* WXDomModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F39AF2873903F87EAD3752931D2EC64 /* WXRecycleListComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC7517B98C66042A40413A5154FB939 /* WXRecycleListComponent.m */; };
+		4FFC00C24264AF0A2BA4A0355C22A04C /* WXMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 56094245DB4301C2AD622E97A98054E4 /* WXMonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52013FAAC74C9138249834D2CACBAEAF /* WXBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A1563B239D98D306389FB9628C79F34 /* WXBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550F20B6FFEF04DF8878004AA8118413 /* WXTextInputComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = C75B1CAB3FA97CEFA38266AFE5504462 /* WXTextInputComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		555FA657C3A80297FC81FEBABFE10332 /* WXEditComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9D82846EB9F8DC105AECBACB536130 /* WXEditComponent.m */; };
+		55DF9BB820336AAD237048D7048DD723 /* WXWebSocketLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = C3CAFE93B074661CDCF921733B80FDB9 /* WXWebSocketLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		563817C534241D87692E1D54B760F014 /* WXRootViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FD5FF878E8ED34960B0A5294107CA2DC /* WXRootViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56735D9943CFC82A2B19B2818C060A46 /* WXAComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 72231B76AF1B15FDA2CF868A3FE18766 /* WXAComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57250E09DF7E5DD7F0F896486A44661E /* WeexSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 89BD538DC510A686722576F8EF3EE6FD /* WeexSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5745872F40F886DF4730FC25EACF6EEA /* WXIndicatorComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D6261E4AB726B5A06603F3350F4BBBE /* WXIndicatorComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58B680F4C21C9DE09AF43ACB96AD19B4 /* WXMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = D77A7E4A9CE94B7B60CFE65F723B9E3E /* WXMonitor.m */; };
+		590E199776E5232F4F19BBAF58911FA2 /* WXVoiceOverModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F9826ECD097F68D457C6628F8AC1B7 /* WXVoiceOverModule.m */; };
+		5AD0634B70EE7DF62F564E54C7904AB7 /* WXConvert.h in Headers */ = {isa = PBXBuildFile; fileRef = BD74236F07E175AAC016388AC870B7AA /* WXConvert.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B87E8B87463FDB3106A4222D807D31D /* WXDisplayQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF91528A6C34B2322E5E68A7E8F1BB4 /* WXDisplayQueue.m */; };
+		5C4512CFC78AAAE9BB9909846E68D724 /* WXInvocationConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = CFF4BE69715807C89B8EC41E3B474A78 /* WXInvocationConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D372A56F8A9348EAE21B66AA28349CA /* WXCanvasComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 96D29ED00FB8922D21A7BBA4EE1B7E3D /* WXCanvasComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E465B617FB116630EF999C4F847220D /* WeexSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F6B3B35FFDADE1C1E8E8D8D5A180A4 /* WeexSDK-dummy.m */; };
+		5F24CB17AD601F5ACC2BAB6CAEA8B3A9 /* WXTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 64571009E93817E5D250169F5F1EDC67 /* WXTransition.m */; };
+		5F3B1153EABAA14243219310E6FF63A2 /* WXClipboardModule.h in Headers */ = {isa = PBXBuildFile; fileRef = C2795D165D262CD57C6EBE5F63839FC0 /* WXClipboardModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F7912AD1952F7CC6C9DE366090E78E4 /* WXInstanceWrap.h in Headers */ = {isa = PBXBuildFile; fileRef = E899DFDFDB6DA02FE5ECA67AE0C49B93 /* WXInstanceWrap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60700A4598B4B2427B2E47BE11CFEB51 /* WXSliderComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C2A69AA964300F6F4879E2A171DBA4 /* WXSliderComponent.m */; };
+		60A7E2E748EE0710EDE0796971A1A1C0 /* WXSectionDataController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A4BB7BF86FEF8E88C72B6C089AA26FB /* WXSectionDataController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61694438CBECF634D08BCAF982F25460 /* WXGlobalEventModule.m in Sources */ = {isa = PBXBuildFile; fileRef = D5686F2A23760B1C6C8C7DC3212B2772 /* WXGlobalEventModule.m */; };
+		6189638726B1B88E8B63CF96F40B1FDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		63A90A7603C239D1588D2D4BF70A9BFD /* WXTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BFE11B29DD43EB1080B590A411BBDA /* WXTransform.m */; };
+		63C017E8487999F73E18939207A70E30 /* WXImageComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D2AE4C36FE31BF82632CAC093949FB /* WXImageComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6653346DC98D8BCCC52B9738626C7790 /* WXDomModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C8F772B8217B8EAD9896BFF30AD43D /* WXDomModule.m */; };
+		6739A31B247A4D14A6F7AE4C34DAC3D1 /* WXWebSocketModule.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DDED3854EB79BB9B5F5822695B4E0F /* WXWebSocketModule.m */; };
+		6749427689C8D8D2E12EEF608E228424 /* WXThreadSafeMutableArray.h in Headers */ = {isa = PBXBuildFile; fileRef = FB64C15C5E289532122B0AAB65564A87 /* WXThreadSafeMutableArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67853C6698965D7342AE5EB8017C4CCC /* WXBoxShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = A6360E958193188BC06D6DFD73EA63F4 /* WXBoxShadow.m */; };
+		682B28E055ED29ED98AF3A256A51EC36 /* WXWeakObjectWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = D68368A9F08019E244FCA1E4635A0BA4 /* WXWeakObjectWrapper.m */; };
+		68C9EF6CCC32CF452D7F8F1F1D80360A /* WXModuleProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 71C62105A5E658E144EF30440D6919FA /* WXModuleProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6922A5BFA443D47FB4753C8B86C2AFCD /* WXVoiceOverModule.h in Headers */ = {isa = PBXBuildFile; fileRef = D396A214ED498A2F39089FAD3230A71D /* WXVoiceOverModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		692F320E3B7589D3396AE30D10DFEFC4 /* WXPolyfillSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 31DB6E884168F4E245C8EC6275869B08 /* WXPolyfillSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6981D78D27B8A96C8242990457861FBE /* WXCallJSMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = F8EBBD7C0347597E4CA39D0BC6E6DE03 /* WXCallJSMethod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69AD45EADDC208C2F56F80EF829F0646 /* WXLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A0D88D0E3A1A144571EFDDDBB9A6EA /* WXLayer.m */; };
+		6E8A1B9E8B4E52CEE6A3C26756DFB935 /* WXJSCoreBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 273FF07125FB9DE64BDDEEB064B15190 /* WXJSCoreBridge.m */; };
+		6ED2BD0E137C4DC5A49412143DACD61F /* Layout.h in Headers */ = {isa = PBXBuildFile; fileRef = 99CEE79BF07FA0F91DA418EBD5C01437 /* Layout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F241FB0F5354A3BC2C87E812B952098 /* WXPickerModule.m in Sources */ = {isa = PBXBuildFile; fileRef = E52C28C7A1BA3ECDA776A0807CC862F5 /* WXPickerModule.m */; };
+		6F85B1521F7951CFA529EF2C465854CB /* WXEmbedComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FCAC8B4BFE56A383AA10AECF7FC6FC /* WXEmbedComponent.m */; };
+		70D50C2ACDFF586CF3A0359F039D28A8 /* WXBridgeProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = C6DC2DE9ABFE53883CC549F2935551AB /* WXBridgeProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71D107410F9CD935D7F876F31179E7AF /* WXComponent+ViewManagement.h in Headers */ = {isa = PBXBuildFile; fileRef = E30807BDD968DD59BCF01B1CB2FB00CC /* WXComponent+ViewManagement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71D3E6434080A261937A2D18C9F8ACD1 /* WXResourceLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = C3533110D7332E32F0408101B66F9D14 /* WXResourceLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7369B10FE11B4E5D9CBB6780C2DF864D /* WXIndicatorComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D90A998F19EE037612ED93AD6FA84D /* WXIndicatorComponent.m */; };
+		73844DC52B0FF14F8592A31C90AAC1E3 /* WXRecycleListLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C744BA6D05F5AFFC31E0F83F2A4F69F4 /* WXRecycleListLayout.m */; };
+		7514ABAE6EB482D483D111F180BE5F4B /* WXThreadSafeMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D7D20A1AF11CDCC446553E2BEE990F /* WXThreadSafeMutableDictionary.m */; };
+		76129FF6D04FDF0D050557B3742F83C4 /* WXCellSlotComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F4D32BCAD0B130EAED9632E34D33A06 /* WXCellSlotComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76230324AFA0B72B0CE82B4D27634D7C /* Pods-WeexSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C59E11AF7940ED5759D9864707C2706A /* Pods-WeexSDK_Tests-dummy.m */; };
+		7623DB73C4F2219536EFD0FAD63502EE /* WXNavigatorModule.h in Headers */ = {isa = PBXBuildFile; fileRef = A3EEF903F935A023014FC7BD3B7ED8B1 /* WXNavigatorModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76D1C533A108CE06E68ED30DA2D6936A /* WXCellComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = FA7A7912456E9E1DF8C0683CADE22862 /* WXCellComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76ED26581C15247FC237B05A7C856144 /* WXNavigationDefaultImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = B490C85FEDAED1B593C5C3C3BF3104B1 /* WXNavigationDefaultImpl.m */; };
+		7729B50C2CD4519BC34A9BE9FBB32F7A /* WXRecycleListTemplateManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 292C873B0ABB0DF0E0C45E50EBC322E6 /* WXRecycleListTemplateManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78A862149DFBCCD3673BBAF88605CDD7 /* WXJSExceptionInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5283DED09D7428CE21A8519D929B5E /* WXJSExceptionInfo.m */; };
+		79334710AC993E3D2DC82FE14C1A5C1A /* WXValidateProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = B66361C386285E5DB42655371E131D5B /* WXValidateProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7956A40FAA92382C326D7065FE19B7F5 /* WXListComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4536F15B5B086C095E9CCF10583D1E /* WXListComponent.m */; };
+		7A027762EFAC1C8E9877671ECFB52E42 /* WXScrollerComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 66F65234D4185E4B1C9FA5C5E8D50E7B /* WXScrollerComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A4CB2B1192B007743699905CB453F47 /* WXRecyclerComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 09401A06A123F30A6DE70C82F159A058 /* WXRecyclerComponent.m */; };
+		7EF69122F0D79D820F1F0932B99E1704 /* WXTextAreaComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = FDB59BC5B740C7966003F7000B5E31A6 /* WXTextAreaComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F5A9570C53F7C4AC603968F7A0F11FB /* WXEmbedComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = E71878BE33D162FE02D2D7AF104F7CD2 /* WXEmbedComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		800EEE0439670A0CE64C0B360F843DDD /* WXRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76952F4FA59928F3A14B13D35E6AAF1C /* WXRootViewController.m */; };
+		809860B694043F59721D33FD39EE2E73 /* WXSliderNeighborComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 485BBF74FF271BBF8DD390EF55AD66AC /* WXSliderNeighborComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		819724ED6E2FE08C101737D0917098BB /* WXRoundedRect.h in Headers */ = {isa = PBXBuildFile; fileRef = F8FEB9D4221AC6FB95B74D9A6F0C5805 /* WXRoundedRect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82684DF7D7C99C2C62C91E3B5704A13C /* WXDatePickerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FAE3D9AD46CCE510BDB4D6176CC701BF /* WXDatePickerManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8400C49F780169A7BF4B7EAEFAEF80D3 /* WXMetaModule.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE039C14128412B1F72E13D278BC160 /* WXMetaModule.m */; };
+		862B5381AC5FCCFCDA2DE0D16291D4EC /* WXComponent_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 596220F4FA9FE2157C82E99E9F5FF544 /* WXComponent_internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86470BC9C9970B6F01A1BF8E7E69A685 /* WXSimulatorShortcutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A30CEA1F92D5D881EFAFAB611B8A98BB /* WXSimulatorShortcutManager.m */; };
+		870B8558E1951F10FB2E0EAF7629164C /* WXComponent+Events.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E0BCD40BFADEA2355AAA688B19901A /* WXComponent+Events.m */; };
+		879662DD81FA9FBF6CA0A30587B3812E /* WXResourceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D8D9235940A25591A8798758402423 /* WXResourceRequest.m */; };
+		87BA48B8FE9DBC954F75E0C7C0607361 /* WXScrollerComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = AC961F9CFDEEB8EAD1628C559CC86E08 /* WXScrollerComponent.m */; };
+		87CDDF6A736682CE746BDFB6BA09AA77 /* WXGlobalEventModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DB2FE22C79274F841FD6D79EBBBB710 /* WXGlobalEventModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8945AA707745F255AEF4BCAAC6457AAF /* WXListComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = E512807A6CFA634424A12055F3ADC0D6 /* WXListComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A9784C78F0C2CED12A55BB6042C14FF /* WXDiffUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 507156561854F7E38DBA9F20B3C585ED /* WXDiffUtil.m */; };
+		8CC25FDF07701135D86EC84B0A4EEED0 /* WXLength.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA95E3737D191D014F07DC9F47EFE4E /* WXLength.m */; };
+		8E4AD4F49C33BBFA0B4196021E9853B5 /* WXBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D42016B5D62BD2960676E763AB547F8D /* WXBaseViewController.m */; };
+		8EACF07361EFBA2D5833BA664DF79CCA /* native-bundle-main.js in Sources */ = {isa = PBXBuildFile; fileRef = 4EB230C91448F0F121270B980626391C /* native-bundle-main.js */; };
+		908B0CA00082E6E016BB720300AB017A /* WXImageComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 819C2FD6D16E6D02831F2442093685B3 /* WXImageComponent.m */; };
+		9258642592906BBE675F0E5942222C90 /* WXRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FB15B1DB2E8C974F3770D7542FA9E5 /* WXRefreshComponent.m */; };
+		93D960F2C910819673ACC19AD7532FE4 /* WXBridgeMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 0652FBEA8AC8152F57A237CE5559F2BC /* WXBridgeMethod.m */; };
+		95E9E71654C109454173CE57C1DB9DFB /* WXUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = A771C52540F1CCDEB991CE1E2F1AF49A /* WXUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9641277692F40C04545111CCF4046F85 /* WXComponent+BoxShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC2BD11EC97E3980E2A5FDDF8028859 /* WXComponent+BoxShadow.m */; };
+		96D9BB036C3E459F3E5DEDDB839F3CA9 /* WXRecycleListDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F802427853AA15BA9F4D15E756CB4A5C /* WXRecycleListDataManager.m */; };
+		971789C5802540FE31E84BFF742F89B6 /* WXInvocationConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A5F42209FB6BC87AA9A3E705B2270F /* WXInvocationConfig.m */; };
+		97C66B1ABC32EBA6AF8A9B26531C1155 /* WXExtendCallNativeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 256C07236D9374535C319CA0DAA80262 /* WXExtendCallNativeManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		996793ACD13695960C44BFB18E5EF32F /* WXComponentFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CF150086ACF684633484E2FBE136EF /* WXComponentFactory.m */; };
+		9A96A822CFA524F4FC10FF038868E9DF /* WXRecyclerUpdateController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9EDF938AC27DF49D75F557DBFE3112 /* WXRecyclerUpdateController.m */; };
+		9BF3E97F09BBB412D4FF9B7B81509D02 /* WXComponent+PseudoClassManagement.m in Sources */ = {isa = PBXBuildFile; fileRef = 7329F769CBBC9B6084B8A08AE1357375 /* WXComponent+PseudoClassManagement.m */; };
+		9CAE26A02ADE9F84E4168F8A80755833 /* WXDiffUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 267AC6035504195C07156649CA3007AF /* WXDiffUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EECA705FAA4DDB8A227C2ADB35F844B /* WXConvert.m in Sources */ = {isa = PBXBuildFile; fileRef = F292CCA35099D0B811034BCC6220803E /* WXConvert.m */; };
+		9FA23D2B1357D17A5A211CEF38EACE27 /* WXRecyclerDragController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6501E5045AF384C60646CBA1612E9F77 /* WXRecyclerDragController.m */; };
+		A0D880F181E872D6DBC4837882DFBB9D /* WXBridgeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E4A9C0ED7DDDF1004C40AA297DD0E9 /* WXBridgeManager.m */; };
+		A22AF4375AA9E4DDCA3F858BE8C8B643 /* WXUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = B11984117B39DF6795B9E2642B96D725 /* WXUtility.m */; };
+		A2CCD9CF731EF22A7EE8B68BEC0A09D7 /* WXRecycleListUpdateManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 65F2FB4B74E2F5F12AF01EA4D435CAAD /* WXRecycleListUpdateManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A36BF592C582B7A11DBCABD7DBB54F47 /* WXBridgeMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = DD12ED5586B517D63B17DCBCB9B4DF1C /* WXBridgeMethod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4D380F1D2B3007D9B60DBE9387D5F51 /* NSObject+WXSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B0547A27AF8F5973A51E4357A3F885 /* NSObject+WXSwizzle.m */; };
+		A57E15DE3519A9297414A55A5718C1A8 /* WXModuleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DEB163AF3542163A90FBBC58B62EA9 /* WXModuleFactory.m */; };
 		A7E2AB88A1F15E30C25DBE69505A2F62 /* Pods-WeexSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE93CC913F3A2C2667A544F8A4BC273C /* Pods-WeexSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D7F0C333CAD88AED07BB0E312AAB6138 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DED4F99ADED9E31B2FD36B077E3A5B /* ReplaceMe.m */; };
+		A842E361F1501E4C79C9A976DAEE4502 /* WXResourceRequestHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 1805C5B772597FD9A4403D3559AC803F /* WXResourceRequestHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A99FA2FF2ADF05A51FFA816FD457F3BA /* WXStorageModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 01446537FB88B52EB715CB49B9EFE848 /* WXStorageModule.m */; };
+		A9F64E07904D7228BF8FEC92BF1B06E4 /* WXServiceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B599E84D84276885CB5E62273E37978B /* WXServiceFactory.m */; };
+		AA1EB413DB2866C267BE1A81AAED566C /* WeexSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 8391DEF397BFE1A8040EDE6B921238E3 /* WeexSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4E5A9E0275A72A3D0686D54635944C /* WXView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0552B2CFFB7F5360298B08AA3253D563 /* WXView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA711DD80715AFF066C1A18A0391471A /* WXLoadingIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B2BFF3E93F2DD7EF6EA297170FD126 /* WXLoadingIndicator.m */; };
+		AADC631C7BC124793D373BED702B8E4B /* WXComponent+Layout.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A565257E3410093A680661B57AD5468 /* WXComponent+Layout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC34A9F9E48FC0CB772C518F08ED8666 /* WXComponent+Navigation.h in Headers */ = {isa = PBXBuildFile; fileRef = 46A48B306A6BB56C068355A391F03B43 /* WXComponent+Navigation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC9225B192CD1978A34807FDA668FC6A /* WXPolyfillSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDCAD02DA72DEBB275A076ECE803D7A /* WXPolyfillSet.m */; };
+		AE6F3874875113E16889F58AD72CE820 /* WXComponent+PseudoClassManagement.h in Headers */ = {isa = PBXBuildFile; fileRef = ABBB1E1FA07C7A4E469AEBB9E859794E /* WXComponent+PseudoClassManagement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE9545DF9DA7B5B63ECF7233BFA43FDB /* WXDebugTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AFF017D9FB8CF52D0927F129C8FDA98 /* WXDebugTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFD83C66315407B0DE128EDA77FB303E /* WXTextComponentProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A7D8B3F603B375598B22253F704676A /* WXTextComponentProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B11F3DF27420BB38363C4E49491E6EF7 /* WXSwitchComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 17E3999AD0907E95D1A2244EF30268BD /* WXSwitchComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B328CC76CEBAEB3083DC0851B7300976 /* WXServiceFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CAAAC4AD23D9203C92E3C73C23ED5B1 /* WXServiceFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4316C8F9769095681E4B6B27F6F81BA /* WXRefreshComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DBA5756557C0D0D6DF87FE02D52E677 /* WXRefreshComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B779CD6C612811A47FE319DA79C522D6 /* UIBezierPath+Weex.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A796E6365493B35BD9F816890ABA1B5 /* UIBezierPath+Weex.m */; };
+		BA4122BF3343C5CB471CA76A90FF0F1B /* WXWeakObjectWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFB73C765D80C1D183070383AF90012 /* WXWeakObjectWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA483E97EF60A06305B40EDD139E2787 /* WXComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = B148F47B5242F2E265AC6CE36AE7592E /* WXComponent.m */; };
+		BA9475FF530762C3026A2919F1150130 /* NSObject+WXSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = C2B33A9C7A593392C9F509F464B1AC8B /* NSObject+WXSwizzle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB2215D2473980FB52779FA7B61B2485 /* WXSliderComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 071FBB9D493F4E0CE33621D3B234EDD8 /* WXSliderComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB76CF6ACB36730275046F2CA2F7934F /* WXLoadingComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CD445827E96B51B000F411B0231159 /* WXLoadingComponent.m */; };
+		BC70E300957784B4A4ED447771D68D37 /* WXComponentMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1CE3A6325D4501BEBC8A9C725BCF91 /* WXComponentMethod.m */; };
+		BDB44F7DF65F81A6E0A37B471E9E4F2E /* WXExtendCallNativeProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA6B17EFC88733539B031A005E8CEBC /* WXExtendCallNativeProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE3C42010491752379144D29BCD556D0 /* WXStreamModule.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B25BEF01CBCDCDCB93D41831F5D2A6 /* WXStreamModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE954081A969FFB4DC02BA30C56E8F5F /* WXDivComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 36045210AA1C0E0D75D3AAA3925028B3 /* WXDivComponent.m */; };
+		BE9EC3388625FC7D4D3DB14C2F83AFFE /* WXSDKEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2657FE9594A75D7616F1EC6C735B9B /* WXSDKEngine.m */; };
+		BF8007C778EBE0F3C00A3E54E8D410D1 /* JSValue+Weex.h in Headers */ = {isa = PBXBuildFile; fileRef = B5932135597CB5D419DA9A152AEC8198 /* JSValue+Weex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF87CE9E0E09CCCF16FB0D68326A2DF1 /* WXThreadSafeCounter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B5CF0A0EEAA7C09AE88F212712B78DC /* WXThreadSafeCounter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C00595BCB25C6803C4470E418561DDD9 /* WXBridgeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A7D26D788518872E017A37B5B97AD613 /* WXBridgeManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C02DADA8E72C6F1D0A5E44A760B26474 /* WXTextComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DCF94DD66EB95CF756E3B97715B675 /* WXTextComponent.m */; };
+		C03EAEA4D6721F40770E4ECC0E36B694 /* WXLayoutDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = FCF9C492C8EE3354AF9482E8D5E73742 /* WXLayoutDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0C4B2FBE4F2777D246C8644A13115FF /* WXComponent+BoxShadow.h in Headers */ = {isa = PBXBuildFile; fileRef = 64F2DDD353E6CB172E38A2B077738715 /* WXComponent+BoxShadow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C209EDA450C2DE17E99CE7B55CB83ED9 /* WXConfigCenterProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D4096EDAFBDA1E648327FB45FEFD9FD3 /* WXConfigCenterProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C248613BB7D0F879CF966D715D800717 /* WXRecycleListUpdateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D87BD74304D9DF5D390B69F83BDE2EDE /* WXRecycleListUpdateManager.m */; };
+		C2CBDD3FFCBF57D0B64BCD57EFA1F905 /* WXTextComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 176C14124917CE10F843069635AF3C5C /* WXTextComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C31617941FD1BAF8ABF10F64F54D75E1 /* WXResourceResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AF681C59D4AD26BD4F65E1D9FC30549 /* WXResourceResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C50DE86219C9770F40B751419EB3A63C /* WXRootView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6633200B4170902C7709532F7E417B66 /* WXRootView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C592A0CCA35DFF7A533910E04A0BCBA8 /* WXJSCoreBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EB4394E6AA1A7B6BBD2F1E8984D174F /* WXJSCoreBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5B7ACB428A0E8855925642C49E32A05 /* WXMultiColumnLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 014D698DB97010963C4FB8296C8453BA /* WXMultiColumnLayout.m */; };
+		C69D259C413F40963F37FD5818029CE3 /* WXTracingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD20076E44F194A2EED6B56317B0985 /* WXTracingManager.m */; };
+		C7E8043AF314FB3D016A50972647220E /* WXThreadSafeMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B64F35473E786B047AC5C1C63D2457 /* WXThreadSafeMutableArray.m */; };
+		C8CC40CD46740D1EF83A383295B5FAB0 /* WXResourceRequestHandlerDefaultImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 9101F0DEE9D0C103D13C169B558E9D90 /* WXResourceRequestHandlerDefaultImpl.m */; };
+		C9B8D94764EE7D223AC733A7FF905604 /* WXStreamModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A726299647A6891EB3F046989A7AA6A /* WXStreamModule.m */; };
+		CA32035DC7EC7485B4A26FF22F4D116C /* WXModalUIModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A712462615FB1ACA034626BACAB0204 /* WXModalUIModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA5833D95A8122BFB54ED870124F7A4F /* WXJSExceptionInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E51B18090FCA2C6A182E4D272B5C432 /* WXJSExceptionInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA68196233355EE89F1488CA659FB3FC /* WXComponent+DataBinding.mm in Sources */ = {isa = PBXBuildFile; fileRef = B3985395703D2BFA4E4F08AAFAE02E6A /* WXComponent+DataBinding.mm */; };
+		CB33F1F303C6A2FA794EF77813BB79E9 /* NSArray+Weex.h in Headers */ = {isa = PBXBuildFile; fileRef = 656EBA9EFCFC03BB20C9D870001965DB /* NSArray+Weex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC3FD610901B44E51B4470BBB012E617 /* WXInnerLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 36AC3D726C88763C96E5B7E0028E5959 /* WXInnerLayer.m */; };
+		CCBFDEFEF2B36F60425664EEDC3580C8 /* WXSDKInstance.h in Headers */ = {isa = PBXBuildFile; fileRef = 78697034E82BC293BA618AF43A8FBD14 /* WXSDKInstance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCC8CC29FBE2B2F74115D5E046510D26 /* WXCallJSMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9E1D603E7C965F37E320DAB2FC19EA /* WXCallJSMethod.m */; };
+		CD6829341FADC31EF0701E8A591B876E /* WXHeaderComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F283486DA71AB62C88DA100D0A0BAB5 /* WXHeaderComponent.m */; };
+		CDC1AFAED90879B13657E22E8639E107 /* WXSDKError.h in Headers */ = {isa = PBXBuildFile; fileRef = 056AE83E510BDB59EDCD3BEAC4041012 /* WXSDKError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDEA3B80949F5A2DEF15727C61180416 /* WXHandlerFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 948335B03864443465E1898D88C99CAE /* WXHandlerFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE092AE42149D859CB21C53E9D3EDF72 /* WXComponent+DataBinding.h in Headers */ = {isa = PBXBuildFile; fileRef = F0F18367BC78E71AB7EAFA5ACB760158 /* WXComponent+DataBinding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF1B24EA8F3EF34D0941638BAE29071F /* WXNetworkProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = F1BDE19B79DB8DBEAF3BA447F06773B1 /* WXNetworkProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFEFC8214AAB941EA20908CB8583DB6C /* WXHeaderComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E3325E5EAAF5B81C5915CF3D304B1BD /* WXHeaderComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D05D9F386BDC814FFE5C57060732565C /* WXComponent+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6753AB0C1EF46418D37DCF124DC42740 /* WXComponent+Layout.m */; };
+		D0B6C55A266D62EEC59C475FF297E98D /* WXComponent+ViewManagement.m in Sources */ = {isa = PBXBuildFile; fileRef = 854E149673AEADBDDD53039E805F14FD /* WXComponent+ViewManagement.m */; };
+		D0BB81561D7431A0B204594E46575E6C /* NSArray+Weex.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E596D7362F576CC0F327F59F11AD89 /* NSArray+Weex.m */; };
+		D1DBBAEF845FC17A7ADED3D4D467A74B /* WXAppConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 04EC389E750526024CDB718E7F21AF87 /* WXAppConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2944210F4C70638DD8D74DA96B252B6 /* WXNavigationDefaultImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = AD1B258BDF1096597FC0B4705964EFD1 /* WXNavigationDefaultImpl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2CAD81085703FC6225E9301A32A90EB /* WXWebComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 03C2B0B63E5DC6BDB3186355811FE239 /* WXWebComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D50ECD0CCF8083B8EAF1F29E1AB4671E /* WXWebSocketLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B744055E3FA7F7B3C7111E72D97A89E /* WXWebSocketLoader.m */; };
+		D60D7F531FB17D1453755D8DE7EA79F4 /* WXResourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1A40DCDD90ACC485F98323A19A34BF /* WXResourceLoader.m */; };
+		D62967366E6F0CEC02876554A35B0B80 /* WXCanvasModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 5866CBCD7E1CC63A44FCED59CE158E3B /* WXCanvasModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6910D1448474109C2E50B06389D4833 /* WXURLRewriteProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = C688F54C9AA0F702A610BF1FB08E9EFF /* WXURLRewriteProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6C819FB9692861335AA8707469A77BA /* WXJSASTParser.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8D77528EAC804A64F85AA9819AA797B8 /* WXJSASTParser.mm */; };
+		D833289D89F332DC096D502BD193C585 /* WXLog.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE7CFECAF999928CB7B2DAC2C638251 /* WXLog.m */; };
+		D8CDA2CF72797C458D88FE7491AB675F /* WXRecyclerDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE9A65995B41B9E69D62230F1A83C4C /* WXRecyclerDataController.m */; };
+		D9B120A08D21AFBC125BA921C4F211EC /* WXCellSlotComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4824B0D1E5D36072CC83EA8A020A8303 /* WXCellSlotComponent.m */; };
+		DC6B7B9C14D4B0CA310FF28B45CB3810 /* WXModuleMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = E4FD5FD03994AECE78BB3DBD972F0207 /* WXModuleMethod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD47D02409737224AB813D4B9D593AB8 /* WXLog.h in Headers */ = {isa = PBXBuildFile; fileRef = A91E5CFC60FBCE4EABFF9D2931F6F28B /* WXLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE0144F78CF8F2F9F89720ECE2F6EB91 /* WXJSASTParser.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF99D097938DC203E275A05B279FCEE /* WXJSASTParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE58D554E859F06EDA194F50870DA7E4 /* WXComponentFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 23AD654F3CE546B53D18121140391776 /* WXComponentFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF059D2FD5E9E6762C777B819E3A299E /* WXURLRewriteDefaultImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = EC26A0B8B993A3CC713838AD604A1E66 /* WXURLRewriteDefaultImpl.m */; };
+		E1DB0E945BF6DB587E49FE65B2EA1BB1 /* WXExtendCallNativeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E2A1FA6A7480EB077FBF43DA24C913 /* WXExtendCallNativeManager.m */; };
+		E266193E965F46D19400A13FCD9D6DC2 /* WXDatePickerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF8F98AD08F4275C2A331AFCB040A63 /* WXDatePickerManager.m */; };
+		E37201009EA6AC847040D149C9D521F1 /* WXInstanceWrap.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F604CE51F0291149528C8CC6F7EAB2 /* WXInstanceWrap.m */; };
+		E57A61929E9BE98B27CFEAB331C32CFB /* WXComponentManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C4D9D21C035E1951A6DEA6958DAB2ABC /* WXComponentManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E66A87127AC56D4AB3703C7CAD17196D /* WXEditComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ED348F2521685DA18AB34A359A0E245 /* WXEditComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E700F4C612408B5B34B72235A8C97DFF /* WXBridgeContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0C77C95A8608056E7AECD90BA27C93 /* WXBridgeContext.m */; };
+		E8CCF651D3724E925B30DD7D001F456A /* WXRecycleListDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 42CA471C0AFDC27E27A05EC54F2C6048 /* WXRecycleListDataManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9CD53464E1D2343DD58E5D78AF8DA14 /* WXAnimationModule.m in Sources */ = {isa = PBXBuildFile; fileRef = D905C52A6D6D0C46BAEBC76236A3604E /* WXAnimationModule.m */; };
+		EA15AD397048835D7A69E1A3169A121F /* WXRecyclerComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = D850A5B3065488801C10D8A273C53602 /* WXRecyclerComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAF90773A4512A3AAB97D278EA003CAB /* WXBridgeContext.h in Headers */ = {isa = PBXBuildFile; fileRef = A66A4795A2D93A50C824586433C7A76A /* WXBridgeContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDD99FB68C9D796E1B472491CE58361C /* WXRuleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E7559EF4E50E9AFA08471A6FCA6F26E /* WXRuleManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEC86A130EFBDE921605703476588B44 /* WXWebViewModule.h in Headers */ = {isa = PBXBuildFile; fileRef = DC29ECCA8E3C1F818FF5690E1797AA74 /* WXWebViewModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F193262CECE48A07451F3BD126906FA6 /* WXMetaModule.h in Headers */ = {isa = PBXBuildFile; fileRef = F8CC17CB907F260E10AEF21E0C2DCAE1 /* WXMetaModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7A81536604AC8F6E9D5B0B2D958BC79 /* WXResourceRequestHandlerDefaultImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = 15E41CA694E769F5C3AA7042D23D9E47 /* WXResourceRequestHandlerDefaultImpl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8D420618E83EBF3C684AD513AB79D71 /* WXCanvasComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AAC53209EDA1EE398C3ECC192A51C6E /* WXCanvasComponent.m */; };
+		F97FFAE201C30E60A4FBDF1756B61A83 /* WXEventModuleProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B693D2AD98B3C53BEBE9ACF6A9CBC70 /* WXEventModuleProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC4AF49CC415854CA34E55EEEB3FC3C1 /* WXFooterComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 69723CD9B5DB24F4C63EB6BBDD92B939 /* WXFooterComponent.m */; };
+		FE4E6B5B8C465E7E9D35A63481BC523F /* WXFooterComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = E8A58BAED51700F9A48283E6141FD54E /* WXFooterComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE7859F3941AAEC93D3AC54F690B91E4 /* WXSDKInstance_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 87C15375672BCCE749D39C0C04FB38B9 /* WXSDKInstance_private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE82DBFCC0860B34AB71F7391F80692D /* WXURLRewriteDefaultImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E7C1DB888AA615686F1E6650883A80F /* WXURLRewriteDefaultImpl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEC90B87E265DCF798934D7DF54A4CED /* WXResourceRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = BA07F45993B73935007F0D80C638EFE4 /* WXResourceRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA445E56E06E8F9759A9095E175BB1 /* WXPickerModule.h in Headers */ = {isa = PBXBuildFile; fileRef = AD1EEA423588762146E7A422AB990D2B /* WXPickerModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,37 +301,311 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01446537FB88B52EB715CB49B9EFE848 /* WXStorageModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXStorageModule.m; sourceTree = "<group>"; };
+		014D698DB97010963C4FB8296C8453BA /* WXMultiColumnLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXMultiColumnLayout.m; sourceTree = "<group>"; };
+		03C2B0B63E5DC6BDB3186355811FE239 /* WXWebComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXWebComponent.h; sourceTree = "<group>"; };
+		0430B073C4A84A25BF223F219EB31165 /* NSTimer+Weex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Weex.m"; sourceTree = "<group>"; };
+		04EC389E750526024CDB718E7F21AF87 /* WXAppConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXAppConfiguration.h; sourceTree = "<group>"; };
+		0552B2CFFB7F5360298B08AA3253D563 /* WXView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXView.h; sourceTree = "<group>"; };
+		056AE83E510BDB59EDCD3BEAC4041012 /* WXSDKError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXSDKError.h; sourceTree = "<group>"; };
+		0652FBEA8AC8152F57A237CE5559F2BC /* WXBridgeMethod.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXBridgeMethod.m; sourceTree = "<group>"; };
+		06D0226663629FE49B31DC7565F94D2C /* WXSDKManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXSDKManager.h; sourceTree = "<group>"; };
+		071FBB9D493F4E0CE33621D3B234EDD8 /* WXSliderComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXSliderComponent.h; sourceTree = "<group>"; };
+		089A7930C406C14BA01F357370A5D988 /* WXMultiColumnLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXMultiColumnLayout.h; sourceTree = "<group>"; };
+		08BE5DF94CF1CDC77236B68CE89AB5FF /* WXType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXType.h; sourceTree = "<group>"; };
+		09401A06A123F30A6DE70C82F159A058 /* WXRecyclerComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXRecyclerComponent.m; sourceTree = "<group>"; };
+		0AA6B17EFC88733539B031A005E8CEBC /* WXExtendCallNativeProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXExtendCallNativeProtocol.h; sourceTree = "<group>"; };
+		0CDCAD02DA72DEBB275A076ECE803D7A /* WXPolyfillSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXPolyfillSet.m; sourceTree = "<group>"; };
+		0CDF48026063A2E58D2400B2DDED5ABB /* WeexSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WeexSDK.modulemap; sourceTree = "<group>"; };
+		0DF46840FE54A2299367547CDCD763D8 /* WXCellComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXCellComponent.m; sourceTree = "<group>"; };
+		0E4DDCBD9EAD1C498538C9A3BF9889ED /* WXCycleSliderComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXCycleSliderComponent.h; sourceTree = "<group>"; };
+		0E51B18090FCA2C6A182E4D272B5C432 /* WXJSExceptionInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXJSExceptionInfo.h; sourceTree = "<group>"; };
+		0F2657FE9594A75D7616F1EC6C735B9B /* WXSDKEngine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXSDKEngine.m; sourceTree = "<group>"; };
+		0F4D32BCAD0B130EAED9632E34D33A06 /* WXCellSlotComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXCellSlotComponent.h; sourceTree = "<group>"; };
 		0F5FA10085DEAD47E77E82BE2A55EA53 /* Pods_WeexSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WeexSDK_Tests.framework; path = "Pods-WeexSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		162AD480FF45048CF2BFC61737BF972B /* WeexSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WeexSDK-umbrella.h"; sourceTree = "<group>"; };
-		2DC9FAD9973E22221E47626FA05198EF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		15C8F772B8217B8EAD9896BFF30AD43D /* WXDomModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXDomModule.m; sourceTree = "<group>"; };
+		15E41CA694E769F5C3AA7042D23D9E47 /* WXResourceRequestHandlerDefaultImpl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXResourceRequestHandlerDefaultImpl.h; sourceTree = "<group>"; };
+		16E596D7362F576CC0F327F59F11AD89 /* NSArray+Weex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Weex.m"; sourceTree = "<group>"; };
+		176C14124917CE10F843069635AF3C5C /* WXTextComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXTextComponent.h; sourceTree = "<group>"; };
+		17E3999AD0907E95D1A2244EF30268BD /* WXSwitchComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXSwitchComponent.h; sourceTree = "<group>"; };
+		1805C5B772597FD9A4403D3559AC803F /* WXResourceRequestHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXResourceRequestHandler.h; sourceTree = "<group>"; };
+		18CF150086ACF684633484E2FBE136EF /* WXComponentFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXComponentFactory.m; sourceTree = "<group>"; };
+		194C4D932AC943BF23350999470798E4 /* WXRecycleListTemplateManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXRecycleListTemplateManager.m; sourceTree = "<group>"; };
+		1AE9A65995B41B9E69D62230F1A83C4C /* WXRecyclerDataController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXRecyclerDataController.m; sourceTree = "<group>"; };
+		1B693D2AD98B3C53BEBE9ACF6A9CBC70 /* WXEventModuleProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXEventModuleProtocol.h; sourceTree = "<group>"; };
+		1C6F318464D6A2F1700750FDBC2E1D90 /* WXAnimationModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXAnimationModule.h; sourceTree = "<group>"; };
+		1CF91528A6C34B2322E5E68A7E8F1BB4 /* WXDisplayQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXDisplayQueue.m; sourceTree = "<group>"; };
+		1DB2FE22C79274F841FD6D79EBBBB710 /* WXGlobalEventModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXGlobalEventModule.h; sourceTree = "<group>"; };
+		1E3325E5EAAF5B81C5915CF3D304B1BD /* WXHeaderComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXHeaderComponent.h; sourceTree = "<group>"; };
+		1E7C1DB888AA615686F1E6650883A80F /* WXURLRewriteDefaultImpl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXURLRewriteDefaultImpl.h; sourceTree = "<group>"; };
+		20F9826ECD097F68D457C6628F8AC1B7 /* WXVoiceOverModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXVoiceOverModule.m; sourceTree = "<group>"; };
+		21CD445827E96B51B000F411B0231159 /* WXLoadingComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXLoadingComponent.m; sourceTree = "<group>"; };
+		23AD654F3CE546B53D18121140391776 /* WXComponentFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXComponentFactory.h; sourceTree = "<group>"; };
+		256C07236D9374535C319CA0DAA80262 /* WXExtendCallNativeManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXExtendCallNativeManager.h; sourceTree = "<group>"; };
+		25BD5D7574BC727688F8ABA87EE390F3 /* NSTimer+Weex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Weex.h"; sourceTree = "<group>"; };
+		25E09AE77CAB36D197AE07CC6BCA1F6E /* WXDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXDefine.h; sourceTree = "<group>"; };
+		267AC6035504195C07156649CA3007AF /* WXDiffUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXDiffUtil.h; sourceTree = "<group>"; };
+		26AD61285D1E917E9A49693C6CFE566D /* WXRoundedRect.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = WXRoundedRect.mm; sourceTree = "<group>"; };
+		270BEE358238D68C082129A2A2B739BD /* WXTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXTransition.h; sourceTree = "<group>"; };
+		273FF07125FB9DE64BDDEEB064B15190 /* WXJSCoreBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXJSCoreBridge.m; sourceTree = "<group>"; };
+		28FB15B1DB2E8C974F3770D7542FA9E5 /* WXRefreshComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXRefreshComponent.m; sourceTree = "<group>"; };
+		292C873B0ABB0DF0E0C45E50EBC322E6 /* WXRecycleListTemplateManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXRecycleListTemplateManager.h; sourceTree = "<group>"; };
+		2A7D8B3F603B375598B22253F704676A /* WXTextComponentProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXTextComponentProtocol.h; sourceTree = "<group>"; };
+		2AAC53209EDA1EE398C3ECC192A51C6E /* WXCanvasComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXCanvasComponent.m; sourceTree = "<group>"; };
+		2AB33160D9C9E43762461A56B593F230 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = WeexSDK/Classes/README.md; sourceTree = "<group>"; };
+		2B5CF0A0EEAA7C09AE88F212712B78DC /* WXThreadSafeCounter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXThreadSafeCounter.h; sourceTree = "<group>"; };
+		2E0C77C95A8608056E7AECD90BA27C93 /* WXBridgeContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXBridgeContext.m; sourceTree = "<group>"; };
+		30CD5155EC20ADF30742E2FC84C945A0 /* WXRecyclerDragController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXRecyclerDragController.h; sourceTree = "<group>"; };
+		3157DE6247DF1EC2486117328B9DC441 /* WXPrerenderManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXPrerenderManager.m; sourceTree = "<group>"; };
+		31DB6E884168F4E245C8EC6275869B08 /* WXPolyfillSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXPolyfillSet.h; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		56CBE580A4BFBB318FCB5EBB6DF916FC /* WeexSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WeexSDK.modulemap; sourceTree = "<group>"; };
+		32BFE11B29DD43EB1080B590A411BBDA /* WXTransform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXTransform.m; sourceTree = "<group>"; };
+		3442F1156AAAB48A27FADE9F833C91A7 /* WXAssert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXAssert.h; sourceTree = "<group>"; };
+		35F232C6CB0CED1DBB10CC74BA6D7761 /* WXComponent+Events.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WXComponent+Events.h"; sourceTree = "<group>"; };
+		36045210AA1C0E0D75D3AAA3925028B3 /* WXDivComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXDivComponent.m; sourceTree = "<group>"; };
+		36AC3D726C88763C96E5B7E0028E5959 /* WXInnerLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXInnerLayer.m; sourceTree = "<group>"; };
+		36B1B44D4B4BBC9EE8A1F20E186D1367 /* WXModuleMethod.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXModuleMethod.m; sourceTree = "<group>"; };
+		37E2A1FA6A7480EB077FBF43DA24C913 /* WXExtendCallNativeManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXExtendCallNativeManager.m; sourceTree = "<group>"; };
+		37EB427D2E119DC3A6130D9BFA988E22 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		38DCF94DD66EB95CF756E3B97715B675 /* WXTextComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXTextComponent.m; sourceTree = "<group>"; };
+		398D420DBA46C38F29F7CBB9676BD4B9 /* WXImgLoaderProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXImgLoaderProtocol.h; sourceTree = "<group>"; };
+		3C6252087B5B59B4131DA007C1D3B5A0 /* WXSDKManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXSDKManager.m; sourceTree = "<group>"; };
+		3E09DBA76A601C66F9F709CBCF2DBD89 /* WXRuleManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXRuleManager.m; sourceTree = "<group>"; };
+		3ECE5436CE8C45C06DFE25488B8238CC /* WXSectionDataController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXSectionDataController.m; sourceTree = "<group>"; };
+		3F17840C33E9C9A11A11AFFEDB54118C /* WXComponentMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXComponentMethod.h; sourceTree = "<group>"; };
+		404F334D0C6AE37DBBA05369343D2DC6 /* Layout.c */ = {isa = PBXFileReference; includeInIndex = 1; path = Layout.c; sourceTree = "<group>"; };
+		40529A1240DE67D882B02E8F6217DACF /* WXAppMonitorProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXAppMonitorProtocol.h; sourceTree = "<group>"; };
+		405B716A2C0649B3F89EECD04A2461A0 /* WXRecycleListComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXRecycleListComponent.h; sourceTree = "<group>"; };
+		4217ECABAAC7D4C9BD8CD8B778230DE4 /* WXWebViewModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXWebViewModule.m; sourceTree = "<group>"; };
+		42CA471C0AFDC27E27A05EC54F2C6048 /* WXRecycleListDataManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXRecycleListDataManager.h; sourceTree = "<group>"; };
+		434632E4F8EB8A19836FECB5F65327CD /* WeexSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WeexSDK-prefix.pch"; sourceTree = "<group>"; };
+		447B75E62E5CFF9049C0AD9202BF42C4 /* WXModalUIModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXModalUIModule.m; sourceTree = "<group>"; };
+		44B64F35473E786B047AC5C1C63D2457 /* WXThreadSafeMutableArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXThreadSafeMutableArray.m; sourceTree = "<group>"; };
+		46A48B306A6BB56C068355A391F03B43 /* WXComponent+Navigation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WXComponent+Navigation.h"; sourceTree = "<group>"; };
+		4824B0D1E5D36072CC83EA8A020A8303 /* WXCellSlotComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXCellSlotComponent.m; sourceTree = "<group>"; };
+		483AD00A51ECE6ED29D18FF4B8371954 /* WXSliderNeighborComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXSliderNeighborComponent.m; sourceTree = "<group>"; };
+		485BBF74FF271BBF8DD390EF55AD66AC /* WXSliderNeighborComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXSliderNeighborComponent.h; sourceTree = "<group>"; };
+		492DCA98FF4CFC06973CAC1DE31E6DC6 /* WXSwitchComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXSwitchComponent.m; sourceTree = "<group>"; };
+		4A824CD79B77A04CEB0D65E83C53DD81 /* WXComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXComponent.h; sourceTree = "<group>"; };
+		4EB230C91448F0F121270B980626391C /* native-bundle-main.js */ = {isa = PBXFileReference; includeInIndex = 1; name = "native-bundle-main.js"; path = "WeexSDK/Classes/native-bundle-main.js"; sourceTree = "<group>"; };
+		4EB4394E6AA1A7B6BBD2F1E8984D174F /* WXJSCoreBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXJSCoreBridge.h; sourceTree = "<group>"; };
+		4F9E1D603E7C965F37E320DAB2FC19EA /* WXCallJSMethod.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXCallJSMethod.m; sourceTree = "<group>"; };
+		507156561854F7E38DBA9F20B3C585ED /* WXDiffUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXDiffUtil.m; sourceTree = "<group>"; };
+		52DCEE038499D9D6C78731A4C58AABF8 /* WXVideoComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXVideoComponent.h; sourceTree = "<group>"; };
+		548E8D775CE38AA2DB0AAD91FFD9AAB3 /* WeexSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WeexSDK-Info.plist"; sourceTree = "<group>"; };
+		56094245DB4301C2AD622E97A98054E4 /* WXMonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXMonitor.h; sourceTree = "<group>"; };
+		5821138CDCAE4E44A4D11A758FE84F6A /* WXLoadingComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXLoadingComponent.h; sourceTree = "<group>"; };
+		5866CBCD7E1CC63A44FCED59CE158E3B /* WXCanvasModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXCanvasModule.h; sourceTree = "<group>"; };
+		596220F4FA9FE2157C82E99E9F5FF544 /* WXComponent_internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXComponent_internal.h; sourceTree = "<group>"; };
+		5A1563B239D98D306389FB9628C79F34 /* WXBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXBaseViewController.h; sourceTree = "<group>"; };
+		5A796E6365493B35BD9F816890ABA1B5 /* UIBezierPath+Weex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+Weex.m"; sourceTree = "<group>"; };
+		5AF681C59D4AD26BD4F65E1D9FC30549 /* WXResourceResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXResourceResponse.h; sourceTree = "<group>"; };
+		5B744055E3FA7F7B3C7111E72D97A89E /* WXWebSocketLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXWebSocketLoader.m; sourceTree = "<group>"; };
+		5B9BCA0613DF9BA26D49FA89817B2950 /* WXDomModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXDomModule.h; sourceTree = "<group>"; };
+		5EA95E3737D191D014F07DC9F47EFE4E /* WXLength.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXLength.m; sourceTree = "<group>"; };
 		5FA21AC0ED4D577E3E5EA94DEF276BC5 /* WeexSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WeexSDK.framework; path = WeexSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6039DF3FCC30418E040970ECD215FCA8 /* WXPrerenderManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXPrerenderManager.h; sourceTree = "<group>"; };
+		60BA51E2E8BA745690A014BCFFC47434 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		61DB17A4B7ADAC23A8026E7321792AC8 /* WXAppConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXAppConfiguration.m; sourceTree = "<group>"; };
+		63883BE632F8B4C366AD219AB1AD6872 /* WXThreadSafeMutableDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXThreadSafeMutableDictionary.h; sourceTree = "<group>"; };
+		64571009E93817E5D250169F5F1EDC67 /* WXTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXTransition.m; sourceTree = "<group>"; };
+		647F13F104A8573FF86F22E456994265 /* WXLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXLayer.h; sourceTree = "<group>"; };
+		64F2DDD353E6CB172E38A2B077738715 /* WXComponent+BoxShadow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WXComponent+BoxShadow.h"; sourceTree = "<group>"; };
+		6501E5045AF384C60646CBA1612E9F77 /* WXRecyclerDragController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXRecyclerDragController.m; sourceTree = "<group>"; };
+		652A0824DCD658955026A21B46C4ADDE /* WXInnerLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXInnerLayer.h; sourceTree = "<group>"; };
+		65481C28FA5F14F979285E88068D0634 /* WXTransform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXTransform.h; sourceTree = "<group>"; };
+		656EBA9EFCFC03BB20C9D870001965DB /* NSArray+Weex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+Weex.h"; sourceTree = "<group>"; };
+		65F2FB4B74E2F5F12AF01EA4D435CAAD /* WXRecycleListUpdateManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXRecycleListUpdateManager.h; sourceTree = "<group>"; };
+		6600DB5E05DAF693634966FEF3B702C5 /* UIBezierPath+Weex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+Weex.h"; sourceTree = "<group>"; };
+		6633200B4170902C7709532F7E417B66 /* WXRootView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXRootView.h; sourceTree = "<group>"; };
+		6693863C83751C8D052F623BCF691AE4 /* WXAssert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXAssert.m; sourceTree = "<group>"; };
+		66D2AE4C36FE31BF82632CAC093949FB /* WXImageComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXImageComponent.h; sourceTree = "<group>"; };
+		66F65234D4185E4B1C9FA5C5E8D50E7B /* WXScrollerComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXScrollerComponent.h; sourceTree = "<group>"; };
+		6753AB0C1EF46418D37DCF124DC42740 /* WXComponent+Layout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WXComponent+Layout.m"; sourceTree = "<group>"; };
+		67F2053BE6B420921120B2FC7FDD163B /* WXSimulatorShortcutManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXSimulatorShortcutManager.h; sourceTree = "<group>"; };
+		680EB27CD81F668995B1636FA98DDED0 /* WXModuleFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXModuleFactory.h; sourceTree = "<group>"; };
+		69723CD9B5DB24F4C63EB6BBDD92B939 /* WXFooterComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXFooterComponent.m; sourceTree = "<group>"; };
+		6A565257E3410093A680661B57AD5468 /* WXComponent+Layout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WXComponent+Layout.h"; sourceTree = "<group>"; };
+		6A726299647A6891EB3F046989A7AA6A /* WXStreamModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXStreamModule.m; sourceTree = "<group>"; };
+		6CAAAC4AD23D9203C92E3C73C23ED5B1 /* WXServiceFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXServiceFactory.h; sourceTree = "<group>"; };
 		6D35109E961C2FF45C612DC202E1803A /* Pods-WeexSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeexSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6DD3000642860722200178A2BF1AB96C /* WXSDKInstance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXSDKInstance.m; sourceTree = "<group>"; };
+		6ED348F2521685DA18AB34A359A0E245 /* WXEditComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXEditComponent.h; sourceTree = "<group>"; };
+		71C62105A5E658E144EF30440D6919FA /* WXModuleProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXModuleProtocol.h; sourceTree = "<group>"; };
+		72231B76AF1B15FDA2CF868A3FE18766 /* WXAComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXAComponent.h; sourceTree = "<group>"; };
+		728B00D6A0B7557AC31979F14B3A3D67 /* WXErrorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXErrorView.m; sourceTree = "<group>"; };
+		7329F769CBBC9B6084B8A08AE1357375 /* WXComponent+PseudoClassManagement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WXComponent+PseudoClassManagement.m"; sourceTree = "<group>"; };
+		737762B874D8C3ACF0528917946E9669 /* WXLoadingIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXLoadingIndicator.h; sourceTree = "<group>"; };
+		74D90A998F19EE037612ED93AD6FA84D /* WXIndicatorComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXIndicatorComponent.m; sourceTree = "<group>"; };
+		75DEB163AF3542163A90FBBC58B62EA9 /* WXModuleFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXModuleFactory.m; sourceTree = "<group>"; };
+		76952F4FA59928F3A14B13D35E6AAF1C /* WXRootViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXRootViewController.m; sourceTree = "<group>"; };
+		78697034E82BC293BA618AF43A8FBD14 /* WXSDKInstance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXSDKInstance.h; sourceTree = "<group>"; };
+		78F604CE51F0291149528C8CC6F7EAB2 /* WXInstanceWrap.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXInstanceWrap.m; sourceTree = "<group>"; };
+		7CEC12584DEB5D5C5436BEDA4D9EA220 /* WXResourceResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXResourceResponse.m; sourceTree = "<group>"; };
+		7DBA5756557C0D0D6DF87FE02D52E677 /* WXRefreshComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXRefreshComponent.h; sourceTree = "<group>"; };
+		7E8D0497B5232E808A70D7EDB3498F7A /* WeexSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WeexSDK.xcconfig; sourceTree = "<group>"; };
+		7F283486DA71AB62C88DA100D0A0BAB5 /* WXHeaderComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXHeaderComponent.m; sourceTree = "<group>"; };
 		7F7CBF1E2013E39FDB549FD48D4F63AD /* Pods-WeexSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WeexSDK_Tests.modulemap"; sourceTree = "<group>"; };
-		8B7D5D5FC2752172FEEC15196CE7F473 /* WeexSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WeexSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		816B57CB4CCE0D6E7876925DA87D781E /* WXStorageModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXStorageModule.h; sourceTree = "<group>"; };
+		819C2FD6D16E6D02831F2442093685B3 /* WXImageComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXImageComponent.m; sourceTree = "<group>"; };
+		8391DEF397BFE1A8040EDE6B921238E3 /* WeexSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WeexSDK.h; sourceTree = "<group>"; };
+		854E149673AEADBDDD53039E805F14FD /* WXComponent+ViewManagement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WXComponent+ViewManagement.m"; sourceTree = "<group>"; };
+		87C15375672BCCE749D39C0C04FB38B9 /* WXSDKInstance_private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXSDKInstance_private.h; sourceTree = "<group>"; };
+		89BD538DC510A686722576F8EF3EE6FD /* WeexSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WeexSDK-umbrella.h"; sourceTree = "<group>"; };
+		8C5283DED09D7428CE21A8519D929B5E /* WXJSExceptionInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXJSExceptionInfo.m; sourceTree = "<group>"; };
+		8CEA7C7503D03E96AC473A7B5B5BEE03 /* WXRecycleListLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXRecycleListLayout.h; sourceTree = "<group>"; };
+		8D6261E4AB726B5A06603F3350F4BBBE /* WXIndicatorComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXIndicatorComponent.h; sourceTree = "<group>"; };
+		8D77528EAC804A64F85AA9819AA797B8 /* WXJSASTParser.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = WXJSASTParser.mm; sourceTree = "<group>"; };
 		9054EB3D2B1216DD7CC3E9CB918808A9 /* Pods-WeexSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeexSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		91757ACB17E025DAE4720FF0EC37F0DC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		93DED4F99ADED9E31B2FD36B077E3A5B /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = WeexSDK/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		9C3EBF56939924122925CC59D04E609E /* WeexSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WeexSDK-Info.plist"; sourceTree = "<group>"; };
+		90C083AC55496B7D9BA4632D2C49C9F0 /* WXDestroyProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXDestroyProtocol.h; sourceTree = "<group>"; };
+		9101F0DEE9D0C103D13C169B558E9D90 /* WXResourceRequestHandlerDefaultImpl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXResourceRequestHandlerDefaultImpl.m; sourceTree = "<group>"; };
+		9356AED7454EFBBCB04BD22097B30120 /* WXNavigationProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXNavigationProtocol.h; sourceTree = "<group>"; };
+		93B2BFF3E93F2DD7EF6EA297170FD126 /* WXLoadingIndicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXLoadingIndicator.m; sourceTree = "<group>"; };
+		93ED144ACE50B8D69C5CD9CC89AB80E1 /* JSValue+Weex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSValue+Weex.m"; sourceTree = "<group>"; };
+		948335B03864443465E1898D88C99CAE /* WXHandlerFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXHandlerFactory.h; sourceTree = "<group>"; };
+		9650E7E8F5428D461676E828D440C0D3 /* WXRecyclerDataController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXRecyclerDataController.h; sourceTree = "<group>"; };
+		96D29ED00FB8922D21A7BBA4EE1B7E3D /* WXCanvasComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXCanvasComponent.h; sourceTree = "<group>"; };
+		97E95CE6F77311A4042BAFC1F9205E22 /* WXHandlerFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXHandlerFactory.m; sourceTree = "<group>"; };
+		99CEE79BF07FA0F91DA418EBD5C01437 /* Layout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Layout.h; sourceTree = "<group>"; };
+		9A358ACEBB50991DB65699855C85D9B6 /* WXThreadSafeCounter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXThreadSafeCounter.m; sourceTree = "<group>"; };
+		9A4BB7BF86FEF8E88C72B6C089AA26FB /* WXSectionDataController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXSectionDataController.h; sourceTree = "<group>"; };
+		9A712462615FB1ACA034626BACAB0204 /* WXModalUIModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXModalUIModule.h; sourceTree = "<group>"; };
+		9AECF0F793E9E732F4127B5A50195901 /* WXComponent+Display.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WXComponent+Display.h"; sourceTree = "<group>"; };
+		9AFF017D9FB8CF52D0927F129C8FDA98 /* WXDebugTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXDebugTool.h; sourceTree = "<group>"; };
+		9B1A40DCDD90ACC485F98323A19A34BF /* WXResourceLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXResourceLoader.m; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E7559EF4E50E9AFA08471A6FCA6F26E /* WXRuleManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXRuleManager.h; sourceTree = "<group>"; };
+		9FDE1BFA586D7FEC1B29FD745602620F /* WXCycleSliderComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXCycleSliderComponent.m; sourceTree = "<group>"; };
+		A20B84155BF18C37D12C30423D2E927B /* WXWebComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXWebComponent.m; sourceTree = "<group>"; };
+		A30CEA1F92D5D881EFAFAB611B8A98BB /* WXSimulatorShortcutManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXSimulatorShortcutManager.m; sourceTree = "<group>"; };
+		A3EEF903F935A023014FC7BD3B7ED8B1 /* WXNavigatorModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXNavigatorModule.h; sourceTree = "<group>"; };
+		A42ED75C622624766471A9C67D909BD2 /* WXClipboardModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXClipboardModule.m; sourceTree = "<group>"; };
+		A5BC6A1D31B3E49D5B757A19CBE9FF1F /* WXComponentManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXComponentManager.m; sourceTree = "<group>"; };
+		A6360E958193188BC06D6DFD73EA63F4 /* WXBoxShadow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXBoxShadow.m; sourceTree = "<group>"; };
+		A66A4795A2D93A50C824586433C7A76A /* WXBridgeContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXBridgeContext.h; sourceTree = "<group>"; };
+		A6D8D9235940A25591A8798758402423 /* WXResourceRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXResourceRequest.m; sourceTree = "<group>"; };
+		A771C52540F1CCDEB991CE1E2F1AF49A /* WXUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXUtility.h; sourceTree = "<group>"; };
+		A7BF4BF5E9931AF49FA079EAE6712A3C /* WXComponent+Navigation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WXComponent+Navigation.m"; sourceTree = "<group>"; };
+		A7D26D788518872E017A37B5B97AD613 /* WXBridgeManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXBridgeManager.h; sourceTree = "<group>"; };
+		A91E5CFC60FBCE4EABFF9D2931F6F28B /* WXLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXLog.h; sourceTree = "<group>"; };
+		A934DA5498EDBAFEBD60D3347B0DAF44 /* WXSDKEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXSDKEngine.h; sourceTree = "<group>"; };
+		A9B25BEF01CBCDCDCB93D41831F5D2A6 /* WXStreamModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXStreamModule.h; sourceTree = "<group>"; };
+		A9C2A69AA964300F6F4879E2A171DBA4 /* WXSliderComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXSliderComponent.m; sourceTree = "<group>"; };
+		ABBB1E1FA07C7A4E469AEBB9E859794E /* WXComponent+PseudoClassManagement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WXComponent+PseudoClassManagement.h"; sourceTree = "<group>"; };
+		AC7F1BF999D9A58750D0DA6A2B1B6A9D /* WXBoxShadow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXBoxShadow.h; sourceTree = "<group>"; };
+		AC961F9CFDEEB8EAD1628C559CC86E08 /* WXScrollerComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXScrollerComponent.m; sourceTree = "<group>"; };
+		AD1B258BDF1096597FC0B4705964EFD1 /* WXNavigationDefaultImpl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXNavigationDefaultImpl.h; sourceTree = "<group>"; };
+		AD1EEA423588762146E7A422AB990D2B /* WXPickerModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXPickerModule.h; sourceTree = "<group>"; };
 		AF34319DE2114BC557E95AE99F5CB9E9 /* Pods-WeexSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeexSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B764ACB5C048A3958EBF078E9F9C723D /* WeexSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WeexSDK.xcconfig; sourceTree = "<group>"; };
+		B11984117B39DF6795B9E2642B96D725 /* WXUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXUtility.m; sourceTree = "<group>"; };
+		B148F47B5242F2E265AC6CE36AE7592E /* WXComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXComponent.m; sourceTree = "<group>"; };
+		B3985395703D2BFA4E4F08AAFAE02E6A /* WXComponent+DataBinding.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = "WXComponent+DataBinding.mm"; sourceTree = "<group>"; };
+		B490C85FEDAED1B593C5C3C3BF3104B1 /* WXNavigationDefaultImpl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXNavigationDefaultImpl.m; sourceTree = "<group>"; };
+		B5932135597CB5D419DA9A152AEC8198 /* JSValue+Weex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSValue+Weex.h"; sourceTree = "<group>"; };
+		B599E84D84276885CB5E62273E37978B /* WXServiceFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXServiceFactory.m; sourceTree = "<group>"; };
+		B66361C386285E5DB42655371E131D5B /* WXValidateProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXValidateProtocol.h; sourceTree = "<group>"; };
+		B6A8C3DA42A92027BB80B0E925B34770 /* WXComponent+Display.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WXComponent+Display.m"; sourceTree = "<group>"; };
+		B7E0BCD40BFADEA2355AAA688B19901A /* WXComponent+Events.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WXComponent+Events.m"; sourceTree = "<group>"; };
+		B8C9E9A2D9FA416D315C17C7B00E144B /* WXWebSocketHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXWebSocketHandler.h; sourceTree = "<group>"; };
+		B9A5F42209FB6BC87AA9A3E705B2270F /* WXInvocationConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXInvocationConfig.m; sourceTree = "<group>"; };
+		B9F6B3B35FFDADE1C1E8E8D8D5A180A4 /* WeexSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WeexSDK-dummy.m"; sourceTree = "<group>"; };
+		BA07F45993B73935007F0D80C638EFE4 /* WXResourceRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXResourceRequest.h; sourceTree = "<group>"; };
+		BD5E1F6C521C134C0749DD8B71F417AF /* WXTextAreaComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXTextAreaComponent.m; sourceTree = "<group>"; };
+		BD74236F07E175AAC016388AC870B7AA /* WXConvert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXConvert.h; sourceTree = "<group>"; };
+		BDF8F98AD08F4275C2A331AFCB040A63 /* WXDatePickerManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXDatePickerManager.m; sourceTree = "<group>"; };
+		BFE20F67D35EC4C1B4F9D23D1D40CCA2 /* WXNavigatorModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXNavigatorModule.m; sourceTree = "<group>"; };
+		BFE31BCC85453C347AFE3264BABCF88A /* WXTimerModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXTimerModule.m; sourceTree = "<group>"; };
+		C254C87D0C5D6FDDBC54290CE22B1480 /* WXVideoComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXVideoComponent.m; sourceTree = "<group>"; };
 		C27130D179294F69D488BD4A3C6C52EB /* Pods-WeexSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WeexSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C2795D165D262CD57C6EBE5F63839FC0 /* WXClipboardModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXClipboardModule.h; sourceTree = "<group>"; };
+		C2B33A9C7A593392C9F509F464B1AC8B /* NSObject+WXSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+WXSwizzle.h"; sourceTree = "<group>"; };
+		C3533110D7332E32F0408101B66F9D14 /* WXResourceLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXResourceLoader.h; sourceTree = "<group>"; };
+		C35BB07D09E0D7216EC6CDD7734EE715 /* WXView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXView.m; sourceTree = "<group>"; };
+		C387F03ED629B2EF4817204200345A8E /* WXScrollerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXScrollerProtocol.h; sourceTree = "<group>"; };
+		C3CAFE93B074661CDCF921733B80FDB9 /* WXWebSocketLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXWebSocketLoader.h; sourceTree = "<group>"; };
+		C4D9D21C035E1951A6DEA6958DAB2ABC /* WXComponentManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXComponentManager.h; sourceTree = "<group>"; };
 		C59E11AF7940ED5759D9864707C2706A /* Pods-WeexSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WeexSDK_Tests-dummy.m"; sourceTree = "<group>"; };
-		CA9CCF7D55C3C40B9F9D3206E331AD44 /* WeexSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WeexSDK-dummy.m"; sourceTree = "<group>"; };
-		CC109E88BE779D2C9BFCB9E22B1521E6 /* WeexSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WeexSDK-prefix.pch"; sourceTree = "<group>"; };
+		C688F54C9AA0F702A610BF1FB08E9EFF /* WXURLRewriteProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXURLRewriteProtocol.h; sourceTree = "<group>"; };
+		C6DC2DE9ABFE53883CC549F2935551AB /* WXBridgeProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXBridgeProtocol.h; sourceTree = "<group>"; };
+		C744BA6D05F5AFFC31E0F83F2A4F69F4 /* WXRecycleListLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXRecycleListLayout.m; sourceTree = "<group>"; };
+		C75B1CAB3FA97CEFA38266AFE5504462 /* WXTextInputComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXTextInputComponent.h; sourceTree = "<group>"; };
+		C7FE930426D0221DB90E708783CBBB7E /* WXWebSocketModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXWebSocketModule.h; sourceTree = "<group>"; };
+		C98897E6CA752EF78B3C577A96400DB1 /* WXTracingProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXTracingProtocol.h; sourceTree = "<group>"; };
+		CA1CE3A6325D4501BEBC8A9C725BCF91 /* WXComponentMethod.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXComponentMethod.m; sourceTree = "<group>"; };
+		CAD20076E44F194A2EED6B56317B0985 /* WXTracingManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXTracingManager.m; sourceTree = "<group>"; };
+		CBC2BD11EC97E3980E2A5FDDF8028859 /* WXComponent+BoxShadow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WXComponent+BoxShadow.m"; sourceTree = "<group>"; };
+		CD307FBB53D2A8BD77B2DD82CF99F8FF /* WXTimerModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXTimerModule.h; sourceTree = "<group>"; };
+		CEE89A25880D27E7B8AE360DD6BAFF66 /* WXRecyclerUpdateController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXRecyclerUpdateController.h; sourceTree = "<group>"; };
+		CFF4BE69715807C89B8EC41E3B474A78 /* WXInvocationConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXInvocationConfig.h; sourceTree = "<group>"; };
+		D2DDED3854EB79BB9B5F5822695B4E0F /* WXWebSocketModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXWebSocketModule.m; sourceTree = "<group>"; };
+		D2E34BE65ACBB3ACC0DE16B9C9AD9A7A /* WXErrorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXErrorView.h; sourceTree = "<group>"; };
+		D396A214ED498A2F39089FAD3230A71D /* WXVoiceOverModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXVoiceOverModule.h; sourceTree = "<group>"; };
+		D4096EDAFBDA1E648327FB45FEFD9FD3 /* WXConfigCenterProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXConfigCenterProtocol.h; sourceTree = "<group>"; };
+		D42016B5D62BD2960676E763AB547F8D /* WXBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXBaseViewController.m; sourceTree = "<group>"; };
+		D51AECB4C10864F77EBF18C9FFF168E1 /* WXRootView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXRootView.m; sourceTree = "<group>"; };
+		D5686F2A23760B1C6C8C7DC3212B2772 /* WXGlobalEventModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXGlobalEventModule.m; sourceTree = "<group>"; };
+		D57191AA665C25C0518DB6327F09D4A2 /* WXDebugTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXDebugTool.m; sourceTree = "<group>"; };
+		D68368A9F08019E244FCA1E4635A0BA4 /* WXWeakObjectWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXWeakObjectWrapper.m; sourceTree = "<group>"; };
+		D6AC9AB4C1B423A9CE21B943F9902978 /* WXCanvasModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXCanvasModule.m; sourceTree = "<group>"; };
+		D77A7E4A9CE94B7B60CFE65F723B9E3E /* WXMonitor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXMonitor.m; sourceTree = "<group>"; };
+		D850A5B3065488801C10D8A273C53602 /* WXRecyclerComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXRecyclerComponent.h; sourceTree = "<group>"; };
+		D87BD74304D9DF5D390B69F83BDE2EDE /* WXRecycleListUpdateManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXRecycleListUpdateManager.m; sourceTree = "<group>"; };
 		D89395910DC90331384244CBDD94B74D /* Pods-WeexSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeexSDK_Tests-Info.plist"; sourceTree = "<group>"; };
+		D8A0D88D0E3A1A144571EFDDDBB9A6EA /* WXLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXLayer.m; sourceTree = "<group>"; };
+		D905C52A6D6D0C46BAEBC76236A3604E /* WXAnimationModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXAnimationModule.m; sourceTree = "<group>"; };
+		DC29ECCA8E3C1F818FF5690E1797AA74 /* WXWebViewModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXWebViewModule.h; sourceTree = "<group>"; };
+		DC4536F15B5B086C095E9CCF10583D1E /* WXListComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXListComponent.m; sourceTree = "<group>"; };
+		DC9EDF938AC27DF49D75F557DBFE3112 /* WXRecyclerUpdateController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXRecyclerUpdateController.m; sourceTree = "<group>"; };
+		DD12ED5586B517D63B17DCBCB9B4DF1C /* WXBridgeMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXBridgeMethod.h; sourceTree = "<group>"; };
 		DE93CC913F3A2C2667A544F8A4BC273C /* Pods-WeexSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WeexSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DEE7CFECAF999928CB7B2DAC2C638251 /* WXLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXLog.m; sourceTree = "<group>"; };
+		E1ADBFE621BB71295A1C1530E1EDCDFA /* WXTextInputComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXTextInputComponent.m; sourceTree = "<group>"; };
+		E1B0547A27AF8F5973A51E4357A3F885 /* NSObject+WXSwizzle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WXSwizzle.m"; sourceTree = "<group>"; };
+		E30807BDD968DD59BCF01B1CB2FB00CC /* WXComponent+ViewManagement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WXComponent+ViewManagement.h"; sourceTree = "<group>"; };
+		E4FD5FD03994AECE78BB3DBD972F0207 /* WXModuleMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXModuleMethod.h; sourceTree = "<group>"; };
+		E512807A6CFA634424A12055F3ADC0D6 /* WXListComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXListComponent.h; sourceTree = "<group>"; };
+		E52C28C7A1BA3ECDA776A0807CC862F5 /* WXPickerModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXPickerModule.m; sourceTree = "<group>"; };
+		E71878BE33D162FE02D2D7AF104F7CD2 /* WXEmbedComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXEmbedComponent.h; sourceTree = "<group>"; };
+		E899DFDFDB6DA02FE5ECA67AE0C49B93 /* WXInstanceWrap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXInstanceWrap.h; sourceTree = "<group>"; };
+		E8A58BAED51700F9A48283E6141FD54E /* WXFooterComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXFooterComponent.h; sourceTree = "<group>"; };
+		E9FCAC8B4BFE56A383AA10AECF7FC6FC /* WXEmbedComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXEmbedComponent.m; sourceTree = "<group>"; };
+		EAF99D097938DC203E275A05B279FCEE /* WXJSASTParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXJSASTParser.h; sourceTree = "<group>"; };
+		EC26A0B8B993A3CC713838AD604A1E66 /* WXURLRewriteDefaultImpl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXURLRewriteDefaultImpl.m; sourceTree = "<group>"; };
+		EDE039C14128412B1F72E13D278BC160 /* WXMetaModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXMetaModule.m; sourceTree = "<group>"; };
+		EE9D82846EB9F8DC105AECBACB536130 /* WXEditComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXEditComponent.m; sourceTree = "<group>"; };
+		F0F18367BC78E71AB7EAFA5ACB760158 /* WXComponent+DataBinding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WXComponent+DataBinding.h"; sourceTree = "<group>"; };
+		F14A0635787F72094DFC207413B0594D /* WXDisplayQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXDisplayQueue.h; sourceTree = "<group>"; };
+		F1BDE19B79DB8DBEAF3BA447F06773B1 /* WXNetworkProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXNetworkProtocol.h; sourceTree = "<group>"; };
+		F1E4A9C0ED7DDDF1004C40AA297DD0E9 /* WXBridgeManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXBridgeManager.m; sourceTree = "<group>"; };
+		F292CCA35099D0B811034BCC6220803E /* WXConvert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXConvert.m; sourceTree = "<group>"; };
+		F4D9217591A9586148D54BC1FF10B199 /* WXDivComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXDivComponent.h; sourceTree = "<group>"; };
 		F65401860B57CF4DDBA27BD15984FD05 /* Pods-WeexSDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeexSDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		F6794E21B03CF2D33411CB671434426E /* WXLength.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXLength.h; sourceTree = "<group>"; };
+		F802427853AA15BA9F4D15E756CB4A5C /* WXRecycleListDataManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXRecycleListDataManager.m; sourceTree = "<group>"; };
+		F8CC17CB907F260E10AEF21E0C2DCAE1 /* WXMetaModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXMetaModule.h; sourceTree = "<group>"; };
+		F8EBBD7C0347597E4CA39D0BC6E6DE03 /* WXCallJSMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXCallJSMethod.h; sourceTree = "<group>"; };
+		F8FEB9D4221AC6FB95B74D9A6F0C5805 /* WXRoundedRect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXRoundedRect.h; sourceTree = "<group>"; };
+		F9D7D20A1AF11CDCC446553E2BEE990F /* WXThreadSafeMutableDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXThreadSafeMutableDictionary.m; sourceTree = "<group>"; };
+		FA6C70854F9B96F4E3E407168EE53B64 /* WXAComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXAComponent.m; sourceTree = "<group>"; };
+		FA7A7912456E9E1DF8C0683CADE22862 /* WXCellComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXCellComponent.h; sourceTree = "<group>"; };
+		FAE3D9AD46CCE510BDB4D6176CC701BF /* WXDatePickerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXDatePickerManager.h; sourceTree = "<group>"; };
+		FAF49233D4760310A8C9A33ACFF4B61E /* WXJSExceptionProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXJSExceptionProtocol.h; sourceTree = "<group>"; };
+		FB2988233DB5C3CBE4C3B38CC92B88D1 /* WeexSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WeexSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FB64C15C5E289532122B0AAB65564A87 /* WXThreadSafeMutableArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXThreadSafeMutableArray.h; sourceTree = "<group>"; };
+		FCF9C492C8EE3354AF9482E8D5E73742 /* WXLayoutDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXLayoutDefine.h; sourceTree = "<group>"; };
+		FD5FF878E8ED34960B0A5294107CA2DC /* WXRootViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXRootViewController.h; sourceTree = "<group>"; };
+		FD8605E6C7D11A3799F566364026E32F /* WXTracingManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXTracingManager.h; sourceTree = "<group>"; };
+		FDB59BC5B740C7966003F7000B5E31A6 /* WXTextAreaComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXTextAreaComponent.h; sourceTree = "<group>"; };
+		FEC7517B98C66042A40413A5154FB939 /* WXRecycleListComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXRecycleListComponent.m; sourceTree = "<group>"; };
+		FFFB73C765D80C1D183070383AF90012 /* WXWeakObjectWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXWeakObjectWrapper.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1CE9E549FE523E2B21948728BBC457F1 /* Frameworks */ = {
+		12A87FF5A470CD9361CF5518D34BDCFD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DE16E752E2E7F8505B00D799C071034 /* Foundation.framework in Frameworks */,
+				6189638726B1B88E8B63CF96F40B1FDC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,47 +620,351 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		29460C7F1B89523FDAB2DD81DBEC52A4 /* Pod */ = {
+		0B6D05BD213F5B39D7C6C900C2DB3505 /* WeexSDK */ = {
 			isa = PBXGroup;
 			children = (
-				2DC9FAD9973E22221E47626FA05198EF /* LICENSE */,
-				91757ACB17E025DAE4720FF0EC37F0DC /* README.md */,
-				8B7D5D5FC2752172FEEC15196CE7F473 /* WeexSDK.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		2D941CD82ACBC26F96FC3E47DFA25203 /* WeexSDK */ = {
-			isa = PBXGroup;
-			children = (
-				93DED4F99ADED9E31B2FD36B077E3A5B /* ReplaceMe.m */,
-				29460C7F1B89523FDAB2DD81DBEC52A4 /* Pod */,
-				408156929929A3C9A2AFA77AD9CD3B30 /* Support Files */,
+				4EB230C91448F0F121270B980626391C /* native-bundle-main.js */,
+				2AB33160D9C9E43762461A56B593F230 /* README.md */,
+				F696CFACFC66919EC487CDE8CCFF1B65 /* Pod */,
+				EB1257FD00A71AA838DE929D34BEEBD3 /* Sources */,
+				EC73938473C648C288B190CFDC1FF33C /* Support Files */,
 			);
 			name = WeexSDK;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		408156929929A3C9A2AFA77AD9CD3B30 /* Support Files */ = {
+		10B4702E7819E1FBB50BE11B5EA353B2 /* Debug */ = {
 			isa = PBXGroup;
 			children = (
-				56CBE580A4BFBB318FCB5EBB6DF916FC /* WeexSDK.modulemap */,
-				B764ACB5C048A3958EBF078E9F9C723D /* WeexSDK.xcconfig */,
-				CA9CCF7D55C3C40B9F9D3206E331AD44 /* WeexSDK-dummy.m */,
-				9C3EBF56939924122925CC59D04E609E /* WeexSDK-Info.plist */,
-				CC109E88BE779D2C9BFCB9E22B1521E6 /* WeexSDK-prefix.pch */,
-				162AD480FF45048CF2BFC61737BF972B /* WeexSDK-umbrella.h */,
+				9AFF017D9FB8CF52D0927F129C8FDA98 /* WXDebugTool.h */,
+				D57191AA665C25C0518DB6327F09D4A2 /* WXDebugTool.m */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WeexSDK";
+			name = Debug;
+			path = Debug;
 			sourceTree = "<group>";
 		};
-		6EC7538778A6735DA360288C65EF45BD /* Development Pods */ = {
+		119B55F40F371C81FD259B9BB9D0CF6B /* Module */ = {
 			isa = PBXGroup;
 			children = (
-				2D941CD82ACBC26F96FC3E47DFA25203 /* WeexSDK */,
+				1C6F318464D6A2F1700750FDBC2E1D90 /* WXAnimationModule.h */,
+				D905C52A6D6D0C46BAEBC76236A3604E /* WXAnimationModule.m */,
+				5866CBCD7E1CC63A44FCED59CE158E3B /* WXCanvasModule.h */,
+				D6AC9AB4C1B423A9CE21B943F9902978 /* WXCanvasModule.m */,
+				C2795D165D262CD57C6EBE5F63839FC0 /* WXClipboardModule.h */,
+				A42ED75C622624766471A9C67D909BD2 /* WXClipboardModule.m */,
+				5B9BCA0613DF9BA26D49FA89817B2950 /* WXDomModule.h */,
+				15C8F772B8217B8EAD9896BFF30AD43D /* WXDomModule.m */,
+				1DB2FE22C79274F841FD6D79EBBBB710 /* WXGlobalEventModule.h */,
+				D5686F2A23760B1C6C8C7DC3212B2772 /* WXGlobalEventModule.m */,
+				E899DFDFDB6DA02FE5ECA67AE0C49B93 /* WXInstanceWrap.h */,
+				78F604CE51F0291149528C8CC6F7EAB2 /* WXInstanceWrap.m */,
+				F8CC17CB907F260E10AEF21E0C2DCAE1 /* WXMetaModule.h */,
+				EDE039C14128412B1F72E13D278BC160 /* WXMetaModule.m */,
+				9A712462615FB1ACA034626BACAB0204 /* WXModalUIModule.h */,
+				447B75E62E5CFF9049C0AD9202BF42C4 /* WXModalUIModule.m */,
+				A3EEF903F935A023014FC7BD3B7ED8B1 /* WXNavigatorModule.h */,
+				BFE20F67D35EC4C1B4F9D23D1D40CCA2 /* WXNavigatorModule.m */,
+				AD1EEA423588762146E7A422AB990D2B /* WXPickerModule.h */,
+				E52C28C7A1BA3ECDA776A0807CC862F5 /* WXPickerModule.m */,
+				6039DF3FCC30418E040970ECD215FCA8 /* WXPrerenderManager.h */,
+				3157DE6247DF1EC2486117328B9DC441 /* WXPrerenderManager.m */,
+				816B57CB4CCE0D6E7876925DA87D781E /* WXStorageModule.h */,
+				01446537FB88B52EB715CB49B9EFE848 /* WXStorageModule.m */,
+				A9B25BEF01CBCDCDCB93D41831F5D2A6 /* WXStreamModule.h */,
+				6A726299647A6891EB3F046989A7AA6A /* WXStreamModule.m */,
+				CD307FBB53D2A8BD77B2DD82CF99F8FF /* WXTimerModule.h */,
+				BFE31BCC85453C347AFE3264BABCF88A /* WXTimerModule.m */,
+				270BEE358238D68C082129A2A2B739BD /* WXTransition.h */,
+				64571009E93817E5D250169F5F1EDC67 /* WXTransition.m */,
+				D396A214ED498A2F39089FAD3230A71D /* WXVoiceOverModule.h */,
+				20F9826ECD097F68D457C6628F8AC1B7 /* WXVoiceOverModule.m */,
+				C7FE930426D0221DB90E708783CBBB7E /* WXWebSocketModule.h */,
+				D2DDED3854EB79BB9B5F5822695B4E0F /* WXWebSocketModule.m */,
+				DC29ECCA8E3C1F818FF5690E1797AA74 /* WXWebViewModule.h */,
+				4217ECABAAC7D4C9BD8CD8B778230DE4 /* WXWebViewModule.m */,
 			);
-			name = "Development Pods";
+			name = Module;
+			path = Module;
+			sourceTree = "<group>";
+		};
+		17CD7FF13767C193AB7E81D92767A96E /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				72231B76AF1B15FDA2CF868A3FE18766 /* WXAComponent.h */,
+				FA6C70854F9B96F4E3E407168EE53B64 /* WXAComponent.m */,
+				96D29ED00FB8922D21A7BBA4EE1B7E3D /* WXCanvasComponent.h */,
+				2AAC53209EDA1EE398C3ECC192A51C6E /* WXCanvasComponent.m */,
+				FA7A7912456E9E1DF8C0683CADE22862 /* WXCellComponent.h */,
+				0DF46840FE54A2299367547CDCD763D8 /* WXCellComponent.m */,
+				596220F4FA9FE2157C82E99E9F5FF544 /* WXComponent_internal.h */,
+				0E4DDCBD9EAD1C498538C9A3BF9889ED /* WXCycleSliderComponent.h */,
+				9FDE1BFA586D7FEC1B29FD745602620F /* WXCycleSliderComponent.m */,
+				F4D9217591A9586148D54BC1FF10B199 /* WXDivComponent.h */,
+				36045210AA1C0E0D75D3AAA3925028B3 /* WXDivComponent.m */,
+				6ED348F2521685DA18AB34A359A0E245 /* WXEditComponent.h */,
+				EE9D82846EB9F8DC105AECBACB536130 /* WXEditComponent.m */,
+				E71878BE33D162FE02D2D7AF104F7CD2 /* WXEmbedComponent.h */,
+				E9FCAC8B4BFE56A383AA10AECF7FC6FC /* WXEmbedComponent.m */,
+				E8A58BAED51700F9A48283E6141FD54E /* WXFooterComponent.h */,
+				69723CD9B5DB24F4C63EB6BBDD92B939 /* WXFooterComponent.m */,
+				1E3325E5EAAF5B81C5915CF3D304B1BD /* WXHeaderComponent.h */,
+				7F283486DA71AB62C88DA100D0A0BAB5 /* WXHeaderComponent.m */,
+				66D2AE4C36FE31BF82632CAC093949FB /* WXImageComponent.h */,
+				819C2FD6D16E6D02831F2442093685B3 /* WXImageComponent.m */,
+				8D6261E4AB726B5A06603F3350F4BBBE /* WXIndicatorComponent.h */,
+				74D90A998F19EE037612ED93AD6FA84D /* WXIndicatorComponent.m */,
+				E512807A6CFA634424A12055F3ADC0D6 /* WXListComponent.h */,
+				DC4536F15B5B086C095E9CCF10583D1E /* WXListComponent.m */,
+				5821138CDCAE4E44A4D11A758FE84F6A /* WXLoadingComponent.h */,
+				21CD445827E96B51B000F411B0231159 /* WXLoadingComponent.m */,
+				737762B874D8C3ACF0528917946E9669 /* WXLoadingIndicator.h */,
+				93B2BFF3E93F2DD7EF6EA297170FD126 /* WXLoadingIndicator.m */,
+				7DBA5756557C0D0D6DF87FE02D52E677 /* WXRefreshComponent.h */,
+				28FB15B1DB2E8C974F3770D7542FA9E5 /* WXRefreshComponent.m */,
+				66F65234D4185E4B1C9FA5C5E8D50E7B /* WXScrollerComponent.h */,
+				AC961F9CFDEEB8EAD1628C559CC86E08 /* WXScrollerComponent.m */,
+				071FBB9D493F4E0CE33621D3B234EDD8 /* WXSliderComponent.h */,
+				A9C2A69AA964300F6F4879E2A171DBA4 /* WXSliderComponent.m */,
+				485BBF74FF271BBF8DD390EF55AD66AC /* WXSliderNeighborComponent.h */,
+				483AD00A51ECE6ED29D18FF4B8371954 /* WXSliderNeighborComponent.m */,
+				17E3999AD0907E95D1A2244EF30268BD /* WXSwitchComponent.h */,
+				492DCA98FF4CFC06973CAC1DE31E6DC6 /* WXSwitchComponent.m */,
+				FDB59BC5B740C7966003F7000B5E31A6 /* WXTextAreaComponent.h */,
+				BD5E1F6C521C134C0749DD8B71F417AF /* WXTextAreaComponent.m */,
+				176C14124917CE10F843069635AF3C5C /* WXTextComponent.h */,
+				38DCF94DD66EB95CF756E3B97715B675 /* WXTextComponent.m */,
+				C75B1CAB3FA97CEFA38266AFE5504462 /* WXTextInputComponent.h */,
+				E1ADBFE621BB71295A1C1530E1EDCDFA /* WXTextInputComponent.m */,
+				65481C28FA5F14F979285E88068D0634 /* WXTransform.h */,
+				32BFE11B29DD43EB1080B590A411BBDA /* WXTransform.m */,
+				52DCEE038499D9D6C78731A4C58AABF8 /* WXVideoComponent.h */,
+				C254C87D0C5D6FDDBC54290CE22B1480 /* WXVideoComponent.m */,
+				03C2B0B63E5DC6BDB3186355811FE239 /* WXWebComponent.h */,
+				A20B84155BF18C37D12C30423D2E927B /* WXWebComponent.m */,
+				3EC91E33595A12DD96EFC796A035BCB6 /* RecycleList */,
+				671751009D705F130362A90A467F8792 /* Recycler */,
+			);
+			name = Component;
+			path = Component;
+			sourceTree = "<group>";
+		};
+		1931FD64C2E0C1074413E0EB63A36A11 /* Display */ = {
+			isa = PBXGroup;
+			children = (
+				6600DB5E05DAF693634966FEF3B702C5 /* UIBezierPath+Weex.h */,
+				5A796E6365493B35BD9F816890ABA1B5 /* UIBezierPath+Weex.m */,
+				64F2DDD353E6CB172E38A2B077738715 /* WXComponent+BoxShadow.h */,
+				CBC2BD11EC97E3980E2A5FDDF8028859 /* WXComponent+BoxShadow.m */,
+				9AECF0F793E9E732F4127B5A50195901 /* WXComponent+Display.h */,
+				B6A8C3DA42A92027BB80B0E925B34770 /* WXComponent+Display.m */,
+				F14A0635787F72094DFC207413B0594D /* WXDisplayQueue.h */,
+				1CF91528A6C34B2322E5E68A7E8F1BB4 /* WXDisplayQueue.m */,
+				652A0824DCD658955026A21B46C4ADDE /* WXInnerLayer.h */,
+				36AC3D726C88763C96E5B7E0028E5959 /* WXInnerLayer.m */,
+				647F13F104A8573FF86F22E456994265 /* WXLayer.h */,
+				D8A0D88D0E3A1A144571EFDDDBB9A6EA /* WXLayer.m */,
+				F8FEB9D4221AC6FB95B74D9A6F0C5805 /* WXRoundedRect.h */,
+				26AD61285D1E917E9A49693C6CFE566D /* WXRoundedRect.mm */,
+			);
+			name = Display;
+			path = Display;
+			sourceTree = "<group>";
+		};
+		234FDF38CCD752148C3376F4C21DCCFB /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				404F334D0C6AE37DBBA05369343D2DC6 /* Layout.c */,
+				99CEE79BF07FA0F91DA418EBD5C01437 /* Layout.h */,
+				6A565257E3410093A680661B57AD5468 /* WXComponent+Layout.h */,
+				6753AB0C1EF46418D37DCF124DC42740 /* WXComponent+Layout.m */,
+				FCF9C492C8EE3354AF9482E8D5E73742 /* WXLayoutDefine.h */,
+			);
+			name = Layout;
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		31701D48D50E481AE1B3BB1EF0B25602 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				35F232C6CB0CED1DBB10CC74BA6D7761 /* WXComponent+Events.h */,
+				B7E0BCD40BFADEA2355AAA688B19901A /* WXComponent+Events.m */,
+			);
+			name = Events;
+			path = Events;
+			sourceTree = "<group>";
+		};
+		328C5618BA0B7FD405A519C76B5EE13D /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				A7D26D788518872E017A37B5B97AD613 /* WXBridgeManager.h */,
+				F1E4A9C0ED7DDDF1004C40AA297DD0E9 /* WXBridgeManager.m */,
+				23AD654F3CE546B53D18121140391776 /* WXComponentFactory.h */,
+				18CF150086ACF684633484E2FBE136EF /* WXComponentFactory.m */,
+				C4D9D21C035E1951A6DEA6958DAB2ABC /* WXComponentManager.h */,
+				A5BC6A1D31B3E49D5B757A19CBE9FF1F /* WXComponentManager.m */,
+				FAE3D9AD46CCE510BDB4D6176CC701BF /* WXDatePickerManager.h */,
+				BDF8F98AD08F4275C2A331AFCB040A63 /* WXDatePickerManager.m */,
+				256C07236D9374535C319CA0DAA80262 /* WXExtendCallNativeManager.h */,
+				37E2A1FA6A7480EB077FBF43DA24C913 /* WXExtendCallNativeManager.m */,
+				948335B03864443465E1898D88C99CAE /* WXHandlerFactory.h */,
+				97E95CE6F77311A4042BAFC1F9205E22 /* WXHandlerFactory.m */,
+				CFF4BE69715807C89B8EC41E3B474A78 /* WXInvocationConfig.h */,
+				B9A5F42209FB6BC87AA9A3E705B2270F /* WXInvocationConfig.m */,
+				680EB27CD81F668995B1636FA98DDED0 /* WXModuleFactory.h */,
+				75DEB163AF3542163A90FBBC58B62EA9 /* WXModuleFactory.m */,
+				9E7559EF4E50E9AFA08471A6FCA6F26E /* WXRuleManager.h */,
+				3E09DBA76A601C66F9F709CBCF2DBD89 /* WXRuleManager.m */,
+				06D0226663629FE49B31DC7565F94D2C /* WXSDKManager.h */,
+				3C6252087B5B59B4131DA007C1D3B5A0 /* WXSDKManager.m */,
+				6CAAAC4AD23D9203C92E3C73C23ED5B1 /* WXServiceFactory.h */,
+				B599E84D84276885CB5E62273E37978B /* WXServiceFactory.m */,
+				FD8605E6C7D11A3799F566364026E32F /* WXTracingManager.h */,
+				CAD20076E44F194A2EED6B56317B0985 /* WXTracingManager.m */,
+			);
+			name = Manager;
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		3EC91E33595A12DD96EFC796A035BCB6 /* RecycleList */ = {
+			isa = PBXGroup;
+			children = (
+				0F4D32BCAD0B130EAED9632E34D33A06 /* WXCellSlotComponent.h */,
+				4824B0D1E5D36072CC83EA8A020A8303 /* WXCellSlotComponent.m */,
+				F0F18367BC78E71AB7EAFA5ACB760158 /* WXComponent+DataBinding.h */,
+				B3985395703D2BFA4E4F08AAFAE02E6A /* WXComponent+DataBinding.mm */,
+				EAF99D097938DC203E275A05B279FCEE /* WXJSASTParser.h */,
+				8D77528EAC804A64F85AA9819AA797B8 /* WXJSASTParser.mm */,
+				405B716A2C0649B3F89EECD04A2461A0 /* WXRecycleListComponent.h */,
+				FEC7517B98C66042A40413A5154FB939 /* WXRecycleListComponent.m */,
+				42CA471C0AFDC27E27A05EC54F2C6048 /* WXRecycleListDataManager.h */,
+				F802427853AA15BA9F4D15E756CB4A5C /* WXRecycleListDataManager.m */,
+				8CEA7C7503D03E96AC473A7B5B5BEE03 /* WXRecycleListLayout.h */,
+				C744BA6D05F5AFFC31E0F83F2A4F69F4 /* WXRecycleListLayout.m */,
+				292C873B0ABB0DF0E0C45E50EBC322E6 /* WXRecycleListTemplateManager.h */,
+				194C4D932AC943BF23350999470798E4 /* WXRecycleListTemplateManager.m */,
+				65F2FB4B74E2F5F12AF01EA4D435CAAD /* WXRecycleListUpdateManager.h */,
+				D87BD74304D9DF5D390B69F83BDE2EDE /* WXRecycleListUpdateManager.m */,
+			);
+			name = RecycleList;
+			path = RecycleList;
+			sourceTree = "<group>";
+		};
+		40338FD55E8BC3DB1884E19D88BF0554 /* Monitor */ = {
+			isa = PBXGroup;
+			children = (
+				56094245DB4301C2AD622E97A98054E4 /* WXMonitor.h */,
+				D77A7E4A9CE94B7B60CFE65F723B9E3E /* WXMonitor.m */,
+			);
+			name = Monitor;
+			path = Monitor;
+			sourceTree = "<group>";
+		};
+		4E1F153B68AFFB8B855B115D27D3D8A4 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				BA07F45993B73935007F0D80C638EFE4 /* WXResourceRequest.h */,
+				A6D8D9235940A25591A8798758402423 /* WXResourceRequest.m */,
+				1805C5B772597FD9A4403D3559AC803F /* WXResourceRequestHandler.h */,
+				15E41CA694E769F5C3AA7042D23D9E47 /* WXResourceRequestHandlerDefaultImpl.h */,
+				9101F0DEE9D0C103D13C169B558E9D90 /* WXResourceRequestHandlerDefaultImpl.m */,
+				5AF681C59D4AD26BD4F65E1D9FC30549 /* WXResourceResponse.h */,
+				7CEC12584DEB5D5C5436BEDA4D9EA220 /* WXResourceResponse.m */,
+			);
+			name = Network;
+			path = Network;
+			sourceTree = "<group>";
+		};
+		502CC3DAFEBF5076CC03E6A3E69C542D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4A824CD79B77A04CEB0D65E83C53DD81 /* WXComponent.h */,
+				B148F47B5242F2E265AC6CE36AE7592E /* WXComponent.m */,
+				46A48B306A6BB56C068355A391F03B43 /* WXComponent+Navigation.h */,
+				A7BF4BF5E9931AF49FA079EAE6712A3C /* WXComponent+Navigation.m */,
+				0E51B18090FCA2C6A182E4D272B5C432 /* WXJSExceptionInfo.h */,
+				8C5283DED09D7428CE21A8519D929B5E /* WXJSExceptionInfo.m */,
+				78697034E82BC293BA618AF43A8FBD14 /* WXSDKInstance.h */,
+				6DD3000642860722200178A2BF1AB96C /* WXSDKInstance.m */,
+				87C15375672BCCE749D39C0C04FB38B9 /* WXSDKInstance_private.h */,
+			);
+			name = Model;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5A2C521361B000812373EB232EAB352E /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				A934DA5498EDBAFEBD60D3347B0DAF44 /* WXSDKEngine.h */,
+				0F2657FE9594A75D7616F1EC6C735B9B /* WXSDKEngine.m */,
+				056AE83E510BDB59EDCD3BEAC4041012 /* WXSDKError.h */,
+			);
+			name = Engine;
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		62ADE7768D497DB8329EFE521FFC8D65 /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				B5932135597CB5D419DA9A152AEC8198 /* JSValue+Weex.h */,
+				93ED144ACE50B8D69C5CD9CC89AB80E1 /* JSValue+Weex.m */,
+				A66A4795A2D93A50C824586433C7A76A /* WXBridgeContext.h */,
+				2E0C77C95A8608056E7AECD90BA27C93 /* WXBridgeContext.m */,
+				DD12ED5586B517D63B17DCBCB9B4DF1C /* WXBridgeMethod.h */,
+				0652FBEA8AC8152F57A237CE5559F2BC /* WXBridgeMethod.m */,
+				F8EBBD7C0347597E4CA39D0BC6E6DE03 /* WXCallJSMethod.h */,
+				4F9E1D603E7C965F37E320DAB2FC19EA /* WXCallJSMethod.m */,
+				3F17840C33E9C9A11A11AFFEDB54118C /* WXComponentMethod.h */,
+				CA1CE3A6325D4501BEBC8A9C725BCF91 /* WXComponentMethod.m */,
+				4EB4394E6AA1A7B6BBD2F1E8984D174F /* WXJSCoreBridge.h */,
+				273FF07125FB9DE64BDDEEB064B15190 /* WXJSCoreBridge.m */,
+				E4FD5FD03994AECE78BB3DBD972F0207 /* WXModuleMethod.h */,
+				36B1B44D4B4BBC9EE8A1F20E186D1367 /* WXModuleMethod.m */,
+				31DB6E884168F4E245C8EC6275869B08 /* WXPolyfillSet.h */,
+				0CDCAD02DA72DEBB275A076ECE803D7A /* WXPolyfillSet.m */,
+			);
+			name = Bridge;
+			path = Bridge;
+			sourceTree = "<group>";
+		};
+		671751009D705F130362A90A467F8792 /* Recycler */ = {
+			isa = PBXGroup;
+			children = (
+				089A7930C406C14BA01F357370A5D988 /* WXMultiColumnLayout.h */,
+				014D698DB97010963C4FB8296C8453BA /* WXMultiColumnLayout.m */,
+				D850A5B3065488801C10D8A273C53602 /* WXRecyclerComponent.h */,
+				09401A06A123F30A6DE70C82F159A058 /* WXRecyclerComponent.m */,
+				9650E7E8F5428D461676E828D440C0D3 /* WXRecyclerDataController.h */,
+				1AE9A65995B41B9E69D62230F1A83C4C /* WXRecyclerDataController.m */,
+				30CD5155EC20ADF30742E2FC84C945A0 /* WXRecyclerDragController.h */,
+				6501E5045AF384C60646CBA1612E9F77 /* WXRecyclerDragController.m */,
+				CEE89A25880D27E7B8AE360DD6BAFF66 /* WXRecyclerUpdateController.h */,
+				DC9EDF938AC27DF49D75F557DBFE3112 /* WXRecyclerUpdateController.m */,
+				9A4BB7BF86FEF8E88C72B6C089AA26FB /* WXSectionDataController.h */,
+				3ECE5436CE8C45C06DFE25488B8238CC /* WXSectionDataController.m */,
+			);
+			name = Recycler;
+			path = Recycler;
+			sourceTree = "<group>";
+		};
+		6B80F080BB85F16F6E44E9F804407912 /* WebSocket */ = {
+			isa = PBXGroup;
+			children = (
+				B8C9E9A2D9FA416D315C17C7B00E144B /* WXWebSocketHandler.h */,
+			);
+			name = WebSocket;
+			path = WebSocket;
+			sourceTree = "<group>";
+		};
+		6DAF096055F489278B110A69AE55C53A /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				AD1B258BDF1096597FC0B4705964EFD1 /* WXNavigationDefaultImpl.h */,
+				B490C85FEDAED1B593C5C3C3BF3104B1 /* WXNavigationDefaultImpl.m */,
+				1E7C1DB888AA615686F1E6650883A80F /* WXURLRewriteDefaultImpl.h */,
+				EC26A0B8B993A3CC713838AD604A1E66 /* WXURLRewriteDefaultImpl.m */,
+			);
+			name = Handler;
+			path = Handler;
 			sourceTree = "<group>";
 		};
 		814C0C3D06DD8DCDF5D25AC541ED6F35 /* Targets Support Files */ = {
@@ -121,6 +973,72 @@
 				A796DB79436FC81B4B852A3C3BBDE30D /* Pods-WeexSDK_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8E602A622DAC359C84179CF853633F79 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				656EBA9EFCFC03BB20C9D870001965DB /* NSArray+Weex.h */,
+				16E596D7362F576CC0F327F59F11AD89 /* NSArray+Weex.m */,
+				C2B33A9C7A593392C9F509F464B1AC8B /* NSObject+WXSwizzle.h */,
+				E1B0547A27AF8F5973A51E4357A3F885 /* NSObject+WXSwizzle.m */,
+				25BD5D7574BC727688F8ABA87EE390F3 /* NSTimer+Weex.h */,
+				0430B073C4A84A25BF223F219EB31165 /* NSTimer+Weex.m */,
+				04EC389E750526024CDB718E7F21AF87 /* WXAppConfiguration.h */,
+				61DB17A4B7ADAC23A8026E7321792AC8 /* WXAppConfiguration.m */,
+				3442F1156AAAB48A27FADE9F833C91A7 /* WXAssert.h */,
+				6693863C83751C8D052F623BCF691AE4 /* WXAssert.m */,
+				AC7F1BF999D9A58750D0DA6A2B1B6A9D /* WXBoxShadow.h */,
+				A6360E958193188BC06D6DFD73EA63F4 /* WXBoxShadow.m */,
+				BD74236F07E175AAC016388AC870B7AA /* WXConvert.h */,
+				F292CCA35099D0B811034BCC6220803E /* WXConvert.m */,
+				25E09AE77CAB36D197AE07CC6BCA1F6E /* WXDefine.h */,
+				267AC6035504195C07156649CA3007AF /* WXDiffUtil.h */,
+				507156561854F7E38DBA9F20B3C585ED /* WXDiffUtil.m */,
+				F6794E21B03CF2D33411CB671434426E /* WXLength.h */,
+				5EA95E3737D191D014F07DC9F47EFE4E /* WXLength.m */,
+				A91E5CFC60FBCE4EABFF9D2931F6F28B /* WXLog.h */,
+				DEE7CFECAF999928CB7B2DAC2C638251 /* WXLog.m */,
+				67F2053BE6B420921120B2FC7FDD163B /* WXSimulatorShortcutManager.h */,
+				A30CEA1F92D5D881EFAFAB611B8A98BB /* WXSimulatorShortcutManager.m */,
+				2B5CF0A0EEAA7C09AE88F212712B78DC /* WXThreadSafeCounter.h */,
+				9A358ACEBB50991DB65699855C85D9B6 /* WXThreadSafeCounter.m */,
+				FB64C15C5E289532122B0AAB65564A87 /* WXThreadSafeMutableArray.h */,
+				44B64F35473E786B047AC5C1C63D2457 /* WXThreadSafeMutableArray.m */,
+				63883BE632F8B4C366AD219AB1AD6872 /* WXThreadSafeMutableDictionary.h */,
+				F9D7D20A1AF11CDCC446553E2BEE990F /* WXThreadSafeMutableDictionary.m */,
+				08BE5DF94CF1CDC77236B68CE89AB5FF /* WXType.h */,
+				A771C52540F1CCDEB991CE1E2F1AF49A /* WXUtility.h */,
+				B11984117B39DF6795B9E2642B96D725 /* WXUtility.m */,
+				FFFB73C765D80C1D183070383AF90012 /* WXWeakObjectWrapper.h */,
+				D68368A9F08019E244FCA1E4635A0BA4 /* WXWeakObjectWrapper.m */,
+			);
+			name = Utility;
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		946638A00FC268F9E056C2CEE9920556 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				40529A1240DE67D882B02E8F6217DACF /* WXAppMonitorProtocol.h */,
+				C6DC2DE9ABFE53883CC549F2935551AB /* WXBridgeProtocol.h */,
+				D4096EDAFBDA1E648327FB45FEFD9FD3 /* WXConfigCenterProtocol.h */,
+				90C083AC55496B7D9BA4632D2C49C9F0 /* WXDestroyProtocol.h */,
+				1B693D2AD98B3C53BEBE9ACF6A9CBC70 /* WXEventModuleProtocol.h */,
+				0AA6B17EFC88733539B031A005E8CEBC /* WXExtendCallNativeProtocol.h */,
+				398D420DBA46C38F29F7CBB9676BD4B9 /* WXImgLoaderProtocol.h */,
+				FAF49233D4760310A8C9A33ACFF4B61E /* WXJSExceptionProtocol.h */,
+				71C62105A5E658E144EF30440D6919FA /* WXModuleProtocol.h */,
+				9356AED7454EFBBCB04BD22097B30120 /* WXNavigationProtocol.h */,
+				F1BDE19B79DB8DBEAF3BA447F06773B1 /* WXNetworkProtocol.h */,
+				C387F03ED629B2EF4817204200345A8E /* WXScrollerProtocol.h */,
+				2A7D8B3F603B375598B22253F704676A /* WXTextComponentProtocol.h */,
+				C98897E6CA752EF78B3C577A96400DB1 /* WXTracingProtocol.h */,
+				C688F54C9AA0F702A610BF1FB08E9EFF /* WXURLRewriteProtocol.h */,
+				B66361C386285E5DB42655371E131D5B /* WXValidateProtocol.h */,
+			);
+			name = Protocol;
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 		A796DB79436FC81B4B852A3C3BBDE30D /* Pods-WeexSDK_Tests */ = {
@@ -140,6 +1058,44 @@
 			path = "Target Support Files/Pods-WeexSDK_Tests";
 			sourceTree = "<group>";
 		};
+		A8EADC1DF1B175EBEEF03C60869BF7B5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B6D05BD213F5B39D7C6C900C2DB3505 /* WeexSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B18BC0449B5B6CAE05E23D9A2FD598DE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5A1563B239D98D306389FB9628C79F34 /* WXBaseViewController.h */,
+				D42016B5D62BD2960676E763AB547F8D /* WXBaseViewController.m */,
+				FD5FF878E8ED34960B0A5294107CA2DC /* WXRootViewController.h */,
+				76952F4FA59928F3A14B13D35E6AAF1C /* WXRootViewController.m */,
+			);
+			name = Controller;
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B1D1C3FE4E200B346A617B497C711101 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ABBB1E1FA07C7A4E469AEBB9E859794E /* WXComponent+PseudoClassManagement.h */,
+				7329F769CBBC9B6084B8A08AE1357375 /* WXComponent+PseudoClassManagement.m */,
+				E30807BDD968DD59BCF01B1CB2FB00CC /* WXComponent+ViewManagement.h */,
+				854E149673AEADBDDD53039E805F14FD /* WXComponent+ViewManagement.m */,
+				D2E34BE65ACBB3ACC0DE16B9C9AD9A7A /* WXErrorView.h */,
+				728B00D6A0B7557AC31979F14B3A3D67 /* WXErrorView.m */,
+				6633200B4170902C7709532F7E417B66 /* WXRootView.h */,
+				D51AECB4C10864F77EBF18C9FFF168E1 /* WXRootView.m */,
+				0552B2CFFB7F5360298B08AA3253D563 /* WXView.h */,
+				C35BB07D09E0D7216EC6CDD7734EE715 /* WXView.m */,
+			);
+			name = View;
+			path = View;
+			sourceTree = "<group>";
+		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,11 +1104,23 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		C82D4F4EB23F2B33FD9CC44EBCAC15F1 /* Loader */ = {
+			isa = PBXGroup;
+			children = (
+				C3533110D7332E32F0408101B66F9D14 /* WXResourceLoader.h */,
+				9B1A40DCDD90ACC485F98323A19A34BF /* WXResourceLoader.m */,
+				C3CAFE93B074661CDCF921733B80FDB9 /* WXWebSocketLoader.h */,
+				5B744055E3FA7F7B3C7111E72D97A89E /* WXWebSocketLoader.m */,
+			);
+			name = Loader;
+			path = Loader;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				6EC7538778A6735DA360288C65EF45BD /* Development Pods */,
+				A8EADC1DF1B175EBEEF03C60869BF7B5 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				F2A6F4084442367BD3FAB36997897B65 /* Products */,
 				814C0C3D06DD8DCDF5D25AC541ED6F35 /* Targets Support Files */,
@@ -167,6 +1135,48 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		EB1257FD00A71AA838DE929D34BEEBD3 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8391DEF397BFE1A8040EDE6B921238E3 /* WeexSDK.h */,
+				62ADE7768D497DB8329EFE521FFC8D65 /* Bridge */,
+				17CD7FF13767C193AB7E81D92767A96E /* Component */,
+				B18BC0449B5B6CAE05E23D9A2FD598DE /* Controller */,
+				10B4702E7819E1FBB50BE11B5EA353B2 /* Debug */,
+				1931FD64C2E0C1074413E0EB63A36A11 /* Display */,
+				5A2C521361B000812373EB232EAB352E /* Engine */,
+				31701D48D50E481AE1B3BB1EF0B25602 /* Events */,
+				6DAF096055F489278B110A69AE55C53A /* Handler */,
+				234FDF38CCD752148C3376F4C21DCCFB /* Layout */,
+				C82D4F4EB23F2B33FD9CC44EBCAC15F1 /* Loader */,
+				328C5618BA0B7FD405A519C76B5EE13D /* Manager */,
+				502CC3DAFEBF5076CC03E6A3E69C542D /* Model */,
+				119B55F40F371C81FD259B9BB9D0CF6B /* Module */,
+				40338FD55E8BC3DB1884E19D88BF0554 /* Monitor */,
+				4E1F153B68AFFB8B855B115D27D3D8A4 /* Network */,
+				946638A00FC268F9E056C2CEE9920556 /* Protocol */,
+				8E602A622DAC359C84179CF853633F79 /* Utility */,
+				B1D1C3FE4E200B346A617B497C711101 /* View */,
+				6B80F080BB85F16F6E44E9F804407912 /* WebSocket */,
+			);
+			name = Sources;
+			path = WeexSDK/Classes/Sources;
+			sourceTree = "<group>";
+		};
+		EC73938473C648C288B190CFDC1FF33C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0CDF48026063A2E58D2400B2DDED5ABB /* WeexSDK.modulemap */,
+				7E8D0497B5232E808A70D7EDB3498F7A /* WeexSDK.xcconfig */,
+				B9F6B3B35FFDADE1C1E8E8D8D5A180A4 /* WeexSDK-dummy.m */,
+				548E8D775CE38AA2DB0AAD91FFD9AAB3 /* WeexSDK-Info.plist */,
+				434632E4F8EB8A19836FECB5F65327CD /* WeexSDK-prefix.pch */,
+				89BD538DC510A686722576F8EF3EE6FD /* WeexSDK-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WeexSDK";
+			sourceTree = "<group>";
+		};
 		F2A6F4084442367BD3FAB36997897B65 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +1184,16 @@
 				5FA21AC0ED4D577E3E5EA94DEF276BC5 /* WeexSDK.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F696CFACFC66919EC487CDE8CCFF1B65 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				60BA51E2E8BA745690A014BCFFC47434 /* LICENSE */,
+				37EB427D2E119DC3A6130D9BFA988E22 /* README.md */,
+				FB2988233DB5C3CBE4C3B38CC92B88D1 /* WeexSDK.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,11 +1207,160 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7C483958C448F3C49A906289D5E7584D /* Headers */ = {
+		37ABF0ECCE714CE54E1D759A7B6845DF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0ABCC245BE2AD659A51BB3B2AB1C13E3 /* WeexSDK-umbrella.h in Headers */,
+				BF8007C778EBE0F3C00A3E54E8D410D1 /* JSValue+Weex.h in Headers */,
+				6ED2BD0E137C4DC5A49412143DACD61F /* Layout.h in Headers */,
+				CB33F1F303C6A2FA794EF77813BB79E9 /* NSArray+Weex.h in Headers */,
+				BA9475FF530762C3026A2919F1150130 /* NSObject+WXSwizzle.h in Headers */,
+				48672472AB50250128E1DD8FC4FC7E40 /* NSTimer+Weex.h in Headers */,
+				4CA8FDB89B7D9DF5828EE0FB48D86075 /* UIBezierPath+Weex.h in Headers */,
+				57250E09DF7E5DD7F0F896486A44661E /* WeexSDK-umbrella.h in Headers */,
+				AA1EB413DB2866C267BE1A81AAED566C /* WeexSDK.h in Headers */,
+				56735D9943CFC82A2B19B2818C060A46 /* WXAComponent.h in Headers */,
+				2BD68EE8686628A6B0403FBC32714B5C /* WXAnimationModule.h in Headers */,
+				D1DBBAEF845FC17A7ADED3D4D467A74B /* WXAppConfiguration.h in Headers */,
+				241A356E9333B43E7AC329296C339A65 /* WXAppMonitorProtocol.h in Headers */,
+				4AF4DDC2B478696956CAD8493765D928 /* WXAssert.h in Headers */,
+				52013FAAC74C9138249834D2CACBAEAF /* WXBaseViewController.h in Headers */,
+				310CB948AE84D4255D6F1AF53DCCC6E0 /* WXBoxShadow.h in Headers */,
+				EAF90773A4512A3AAB97D278EA003CAB /* WXBridgeContext.h in Headers */,
+				C00595BCB25C6803C4470E418561DDD9 /* WXBridgeManager.h in Headers */,
+				A36BF592C582B7A11DBCABD7DBB54F47 /* WXBridgeMethod.h in Headers */,
+				70D50C2ACDFF586CF3A0359F039D28A8 /* WXBridgeProtocol.h in Headers */,
+				6981D78D27B8A96C8242990457861FBE /* WXCallJSMethod.h in Headers */,
+				5D372A56F8A9348EAE21B66AA28349CA /* WXCanvasComponent.h in Headers */,
+				D62967366E6F0CEC02876554A35B0B80 /* WXCanvasModule.h in Headers */,
+				76D1C533A108CE06E68ED30DA2D6936A /* WXCellComponent.h in Headers */,
+				76129FF6D04FDF0D050557B3742F83C4 /* WXCellSlotComponent.h in Headers */,
+				5F3B1153EABAA14243219310E6FF63A2 /* WXClipboardModule.h in Headers */,
+				C0C4B2FBE4F2777D246C8644A13115FF /* WXComponent+BoxShadow.h in Headers */,
+				CE092AE42149D859CB21C53E9D3EDF72 /* WXComponent+DataBinding.h in Headers */,
+				17479FCDE3717BC261A07916FD93A2D1 /* WXComponent+Display.h in Headers */,
+				33B40053BA674668758D781BA343D6FD /* WXComponent+Events.h in Headers */,
+				AADC631C7BC124793D373BED702B8E4B /* WXComponent+Layout.h in Headers */,
+				AC34A9F9E48FC0CB772C518F08ED8666 /* WXComponent+Navigation.h in Headers */,
+				AE6F3874875113E16889F58AD72CE820 /* WXComponent+PseudoClassManagement.h in Headers */,
+				71D107410F9CD935D7F876F31179E7AF /* WXComponent+ViewManagement.h in Headers */,
+				19F1D69A3526F1A0F9E400C031E8BB72 /* WXComponent.h in Headers */,
+				862B5381AC5FCCFCDA2DE0D16291D4EC /* WXComponent_internal.h in Headers */,
+				DE58D554E859F06EDA194F50870DA7E4 /* WXComponentFactory.h in Headers */,
+				E57A61929E9BE98B27CFEAB331C32CFB /* WXComponentManager.h in Headers */,
+				366A7A50B9CB9011D1B477FB77541280 /* WXComponentMethod.h in Headers */,
+				C209EDA450C2DE17E99CE7B55CB83ED9 /* WXConfigCenterProtocol.h in Headers */,
+				5AD0634B70EE7DF62F564E54C7904AB7 /* WXConvert.h in Headers */,
+				41345B746425DABD58CE8B18C56B4552 /* WXCycleSliderComponent.h in Headers */,
+				82684DF7D7C99C2C62C91E3B5704A13C /* WXDatePickerManager.h in Headers */,
+				AE9545DF9DA7B5B63ECF7233BFA43FDB /* WXDebugTool.h in Headers */,
+				4301EA7C13B13F474970EAA3568FA497 /* WXDefine.h in Headers */,
+				336CD64510DC3B5EDC3A6C3FCBDD1FC1 /* WXDestroyProtocol.h in Headers */,
+				9CAE26A02ADE9F84E4168F8A80755833 /* WXDiffUtil.h in Headers */,
+				49796654216CD456C53BF1A245B43608 /* WXDisplayQueue.h in Headers */,
+				3A847C74D4BAC0846D195AA762C5243D /* WXDivComponent.h in Headers */,
+				4E9D788FC140CFC12C025D2087B0F1FA /* WXDomModule.h in Headers */,
+				E66A87127AC56D4AB3703C7CAD17196D /* WXEditComponent.h in Headers */,
+				7F5A9570C53F7C4AC603968F7A0F11FB /* WXEmbedComponent.h in Headers */,
+				31DB61CB676D050EBDAE40A997A57B41 /* WXErrorView.h in Headers */,
+				F97FFAE201C30E60A4FBDF1756B61A83 /* WXEventModuleProtocol.h in Headers */,
+				97C66B1ABC32EBA6AF8A9B26531C1155 /* WXExtendCallNativeManager.h in Headers */,
+				BDB44F7DF65F81A6E0A37B471E9E4F2E /* WXExtendCallNativeProtocol.h in Headers */,
+				FE4E6B5B8C465E7E9D35A63481BC523F /* WXFooterComponent.h in Headers */,
+				87CDDF6A736682CE746BDFB6BA09AA77 /* WXGlobalEventModule.h in Headers */,
+				CDEA3B80949F5A2DEF15727C61180416 /* WXHandlerFactory.h in Headers */,
+				CFEFC8214AAB941EA20908CB8583DB6C /* WXHeaderComponent.h in Headers */,
+				63C017E8487999F73E18939207A70E30 /* WXImageComponent.h in Headers */,
+				30BCBD019E92B931A8A1E94EC1BAE163 /* WXImgLoaderProtocol.h in Headers */,
+				5745872F40F886DF4730FC25EACF6EEA /* WXIndicatorComponent.h in Headers */,
+				12D9F33543D531212683245D115BB822 /* WXInnerLayer.h in Headers */,
+				5F7912AD1952F7CC6C9DE366090E78E4 /* WXInstanceWrap.h in Headers */,
+				5C4512CFC78AAAE9BB9909846E68D724 /* WXInvocationConfig.h in Headers */,
+				DE0144F78CF8F2F9F89720ECE2F6EB91 /* WXJSASTParser.h in Headers */,
+				C592A0CCA35DFF7A533910E04A0BCBA8 /* WXJSCoreBridge.h in Headers */,
+				CA5833D95A8122BFB54ED870124F7A4F /* WXJSExceptionInfo.h in Headers */,
+				0D01F32508B8CF0B1E97BCC2D8735A92 /* WXJSExceptionProtocol.h in Headers */,
+				43C54F8A57073312B9DD599D4E287EAD /* WXLayer.h in Headers */,
+				C03EAEA4D6721F40770E4ECC0E36B694 /* WXLayoutDefine.h in Headers */,
+				470D1A532BBDACA49041180F528596DC /* WXLength.h in Headers */,
+				8945AA707745F255AEF4BCAAC6457AAF /* WXListComponent.h in Headers */,
+				3FD6ED346D4A8F7F12128DD640A016F8 /* WXLoadingComponent.h in Headers */,
+				1E288934389DFCA649CD23ABDEA7725F /* WXLoadingIndicator.h in Headers */,
+				DD47D02409737224AB813D4B9D593AB8 /* WXLog.h in Headers */,
+				F193262CECE48A07451F3BD126906FA6 /* WXMetaModule.h in Headers */,
+				CA32035DC7EC7485B4A26FF22F4D116C /* WXModalUIModule.h in Headers */,
+				422A3E436B05B3761DC6E2260B7DD798 /* WXModuleFactory.h in Headers */,
+				DC6B7B9C14D4B0CA310FF28B45CB3810 /* WXModuleMethod.h in Headers */,
+				68C9EF6CCC32CF452D7F8F1F1D80360A /* WXModuleProtocol.h in Headers */,
+				4FFC00C24264AF0A2BA4A0355C22A04C /* WXMonitor.h in Headers */,
+				0939622988C156B54E4B9B533404FF94 /* WXMultiColumnLayout.h in Headers */,
+				D2944210F4C70638DD8D74DA96B252B6 /* WXNavigationDefaultImpl.h in Headers */,
+				39E95FBACB1084416AC87E1EA87D75AA /* WXNavigationProtocol.h in Headers */,
+				7623DB73C4F2219536EFD0FAD63502EE /* WXNavigatorModule.h in Headers */,
+				CF1B24EA8F3EF34D0941638BAE29071F /* WXNetworkProtocol.h in Headers */,
+				FFFA445E56E06E8F9759A9095E175BB1 /* WXPickerModule.h in Headers */,
+				692F320E3B7589D3396AE30D10DFEFC4 /* WXPolyfillSet.h in Headers */,
+				4E3F122F0AFB0330B08B119E4AAFD1B8 /* WXPrerenderManager.h in Headers */,
+				419E2A8144AEBC5015CB3F0578DA4BDE /* WXRecycleListComponent.h in Headers */,
+				E8CCF651D3724E925B30DD7D001F456A /* WXRecycleListDataManager.h in Headers */,
+				1EFF200EDF3D78351E4653DCEBA9A15B /* WXRecycleListLayout.h in Headers */,
+				7729B50C2CD4519BC34A9BE9FBB32F7A /* WXRecycleListTemplateManager.h in Headers */,
+				A2CCD9CF731EF22A7EE8B68BEC0A09D7 /* WXRecycleListUpdateManager.h in Headers */,
+				EA15AD397048835D7A69E1A3169A121F /* WXRecyclerComponent.h in Headers */,
+				0E8546C182C80BF3787740C946547F9B /* WXRecyclerDataController.h in Headers */,
+				2FADA8309C3A75B16443F601BA941798 /* WXRecyclerDragController.h in Headers */,
+				331674D85BF2BF6666A9B38A93A0B835 /* WXRecyclerUpdateController.h in Headers */,
+				B4316C8F9769095681E4B6B27F6F81BA /* WXRefreshComponent.h in Headers */,
+				71D3E6434080A261937A2D18C9F8ACD1 /* WXResourceLoader.h in Headers */,
+				FEC90B87E265DCF798934D7DF54A4CED /* WXResourceRequest.h in Headers */,
+				A842E361F1501E4C79C9A976DAEE4502 /* WXResourceRequestHandler.h in Headers */,
+				F7A81536604AC8F6E9D5B0B2D958BC79 /* WXResourceRequestHandlerDefaultImpl.h in Headers */,
+				C31617941FD1BAF8ABF10F64F54D75E1 /* WXResourceResponse.h in Headers */,
+				C50DE86219C9770F40B751419EB3A63C /* WXRootView.h in Headers */,
+				563817C534241D87692E1D54B760F014 /* WXRootViewController.h in Headers */,
+				819724ED6E2FE08C101737D0917098BB /* WXRoundedRect.h in Headers */,
+				EDD99FB68C9D796E1B472491CE58361C /* WXRuleManager.h in Headers */,
+				7A027762EFAC1C8E9877671ECFB52E42 /* WXScrollerComponent.h in Headers */,
+				06B7DE352F47C014E91A12B37B17794B /* WXScrollerProtocol.h in Headers */,
+				15C6B8EA7A357AEA1A26DBBB4C12CB46 /* WXSDKEngine.h in Headers */,
+				CDC1AFAED90879B13657E22E8639E107 /* WXSDKError.h in Headers */,
+				CCBFDEFEF2B36F60425664EEDC3580C8 /* WXSDKInstance.h in Headers */,
+				FE7859F3941AAEC93D3AC54F690B91E4 /* WXSDKInstance_private.h in Headers */,
+				2A3DA2B2458FA92D43715B7500A9EF7C /* WXSDKManager.h in Headers */,
+				60A7E2E748EE0710EDE0796971A1A1C0 /* WXSectionDataController.h in Headers */,
+				B328CC76CEBAEB3083DC0851B7300976 /* WXServiceFactory.h in Headers */,
+				2BF9B2AD5E7AD08BAA9F19016DE603E3 /* WXSimulatorShortcutManager.h in Headers */,
+				BB2215D2473980FB52779FA7B61B2485 /* WXSliderComponent.h in Headers */,
+				809860B694043F59721D33FD39EE2E73 /* WXSliderNeighborComponent.h in Headers */,
+				3A2A58A49A783B87F7A37E8A69EB63CD /* WXStorageModule.h in Headers */,
+				BE3C42010491752379144D29BCD556D0 /* WXStreamModule.h in Headers */,
+				B11F3DF27420BB38363C4E49491E6EF7 /* WXSwitchComponent.h in Headers */,
+				7EF69122F0D79D820F1F0932B99E1704 /* WXTextAreaComponent.h in Headers */,
+				C2CBDD3FFCBF57D0B64BCD57EFA1F905 /* WXTextComponent.h in Headers */,
+				AFD83C66315407B0DE128EDA77FB303E /* WXTextComponentProtocol.h in Headers */,
+				550F20B6FFEF04DF8878004AA8118413 /* WXTextInputComponent.h in Headers */,
+				BF87CE9E0E09CCCF16FB0D68326A2DF1 /* WXThreadSafeCounter.h in Headers */,
+				6749427689C8D8D2E12EEF608E228424 /* WXThreadSafeMutableArray.h in Headers */,
+				2E2F6346C4697496B7DA2CAAB0E01A4B /* WXThreadSafeMutableDictionary.h in Headers */,
+				24F2694E1B71BE77F2C60108BA8F4939 /* WXTimerModule.h in Headers */,
+				38D72C460F5F315E32875DE14549D6E0 /* WXTracingManager.h in Headers */,
+				278C1BB3A37E2CBC8970A0FB5927CC8B /* WXTracingProtocol.h in Headers */,
+				3D906344E1D03D96CD3ED2BE42FD5F1B /* WXTransform.h in Headers */,
+				33F7B17BAC2A5396EB04D1DBD7ED9946 /* WXTransition.h in Headers */,
+				03DEDAC5659B57E1260807DBA9BB2F0E /* WXType.h in Headers */,
+				FE82DBFCC0860B34AB71F7391F80692D /* WXURLRewriteDefaultImpl.h in Headers */,
+				D6910D1448474109C2E50B06389D4833 /* WXURLRewriteProtocol.h in Headers */,
+				95E9E71654C109454173CE57C1DB9DFB /* WXUtility.h in Headers */,
+				79334710AC993E3D2DC82FE14C1A5C1A /* WXValidateProtocol.h in Headers */,
+				3FB9461D3C0C170A23FD3798EFEDF0A7 /* WXVideoComponent.h in Headers */,
+				AA4E5A9E0275A72A3D0686D54635944C /* WXView.h in Headers */,
+				6922A5BFA443D47FB4753C8B86C2AFCD /* WXVoiceOverModule.h in Headers */,
+				BA4122BF3343C5CB471CA76A90FF0F1B /* WXWeakObjectWrapper.h in Headers */,
+				D2CAD81085703FC6225E9301A32A90EB /* WXWebComponent.h in Headers */,
+				2D05ED6F2832BCEE93FFB03F4289F6D7 /* WXWebSocketHandler.h in Headers */,
+				55DF9BB820336AAD237048D7048DD723 /* WXWebSocketLoader.h in Headers */,
+				1622B8AA7CD0AC0DD2B5B432DF053CD7 /* WXWebSocketModule.h in Headers */,
+				EEC86A130EFBDE921605703476588B44 /* WXWebViewModule.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,12 +1388,12 @@
 		};
 		BFCAFC5A05D2B40152EEE1A1F1F1DB37 /* WeexSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 26809FCAF5D0E487901D251D392640F0 /* Build configuration list for PBXNativeTarget "WeexSDK" */;
+			buildConfigurationList = 27B7E39CC5F4F3083A9D3DF8903C082D /* Build configuration list for PBXNativeTarget "WeexSDK" */;
 			buildPhases = (
-				7C483958C448F3C49A906289D5E7584D /* Headers */,
-				C4F0F3B4831A1433227A0A43AD6F514C /* Sources */,
-				1CE9E549FE523E2B21948728BBC457F1 /* Frameworks */,
-				67988C01D3112C1A75FF0D677DDD17F0 /* Resources */,
+				37ABF0ECCE714CE54E1D759A7B6845DF /* Headers */,
+				080DFB4FED2ACA1008680E0F062362BC /* Sources */,
+				12A87FF5A470CD9361CF5518D34BDCFD /* Frameworks */,
+				CA831CE87FF36186B49A0024E05592B9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -270,7 +1439,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67988C01D3112C1A75FF0D677DDD17F0 /* Resources */ = {
+		CA831CE87FF36186B49A0024E05592B9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -280,20 +1449,145 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		080DFB4FED2ACA1008680E0F062362BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D554B9DA46B234F9BE01226C3583E5E /* JSValue+Weex.m in Sources */,
+				11DC849A989C960906F00452947AA8C7 /* Layout.c in Sources */,
+				8EACF07361EFBA2D5833BA664DF79CCA /* native-bundle-main.js in Sources */,
+				D0BB81561D7431A0B204594E46575E6C /* NSArray+Weex.m in Sources */,
+				A4D380F1D2B3007D9B60DBE9387D5F51 /* NSObject+WXSwizzle.m in Sources */,
+				2F03409070FFB1D025CE51085852727E /* NSTimer+Weex.m in Sources */,
+				0D8C4A0A695C93523268DF0406E90F6A /* README.md in Sources */,
+				B779CD6C612811A47FE319DA79C522D6 /* UIBezierPath+Weex.m in Sources */,
+				5E465B617FB116630EF999C4F847220D /* WeexSDK-dummy.m in Sources */,
+				466B04FFA6C92DC0304E1C3D95DFF695 /* WXAComponent.m in Sources */,
+				E9CD53464E1D2343DD58E5D78AF8DA14 /* WXAnimationModule.m in Sources */,
+				452324156E054F665ADBF5B1F73EC9F4 /* WXAppConfiguration.m in Sources */,
+				494A42E10662DB0BF1450FA650FAC156 /* WXAssert.m in Sources */,
+				8E4AD4F49C33BBFA0B4196021E9853B5 /* WXBaseViewController.m in Sources */,
+				67853C6698965D7342AE5EB8017C4CCC /* WXBoxShadow.m in Sources */,
+				E700F4C612408B5B34B72235A8C97DFF /* WXBridgeContext.m in Sources */,
+				A0D880F181E872D6DBC4837882DFBB9D /* WXBridgeManager.m in Sources */,
+				93D960F2C910819673ACC19AD7532FE4 /* WXBridgeMethod.m in Sources */,
+				CCC8CC29FBE2B2F74115D5E046510D26 /* WXCallJSMethod.m in Sources */,
+				F8D420618E83EBF3C684AD513AB79D71 /* WXCanvasComponent.m in Sources */,
+				1DF57545C8652A814E2F95C6E3A4AEC4 /* WXCanvasModule.m in Sources */,
+				3E16258F78C1DA95F598E4D13566852B /* WXCellComponent.m in Sources */,
+				D9B120A08D21AFBC125BA921C4F211EC /* WXCellSlotComponent.m in Sources */,
+				0AB4C23A0FF4D2A5E3E6851BF810D11D /* WXClipboardModule.m in Sources */,
+				9641277692F40C04545111CCF4046F85 /* WXComponent+BoxShadow.m in Sources */,
+				CA68196233355EE89F1488CA659FB3FC /* WXComponent+DataBinding.mm in Sources */,
+				1329FEA2ECA19C65DC9F7E36D6E2C571 /* WXComponent+Display.m in Sources */,
+				870B8558E1951F10FB2E0EAF7629164C /* WXComponent+Events.m in Sources */,
+				D05D9F386BDC814FFE5C57060732565C /* WXComponent+Layout.m in Sources */,
+				33A55E716D2B25B4C1AC429671D70676 /* WXComponent+Navigation.m in Sources */,
+				9BF3E97F09BBB412D4FF9B7B81509D02 /* WXComponent+PseudoClassManagement.m in Sources */,
+				D0B6C55A266D62EEC59C475FF297E98D /* WXComponent+ViewManagement.m in Sources */,
+				BA483E97EF60A06305B40EDD139E2787 /* WXComponent.m in Sources */,
+				996793ACD13695960C44BFB18E5EF32F /* WXComponentFactory.m in Sources */,
+				131F69D7F28EDF662D08282A212C2253 /* WXComponentManager.m in Sources */,
+				BC70E300957784B4A4ED447771D68D37 /* WXComponentMethod.m in Sources */,
+				9EECA705FAA4DDB8A227C2ADB35F844B /* WXConvert.m in Sources */,
+				427584DD0D372504FA33E505E3EEB79C /* WXCycleSliderComponent.m in Sources */,
+				E266193E965F46D19400A13FCD9D6DC2 /* WXDatePickerManager.m in Sources */,
+				1B9EB1942E3353FF6AE1B7DA8FF49977 /* WXDebugTool.m in Sources */,
+				8A9784C78F0C2CED12A55BB6042C14FF /* WXDiffUtil.m in Sources */,
+				5B87E8B87463FDB3106A4222D807D31D /* WXDisplayQueue.m in Sources */,
+				BE954081A969FFB4DC02BA30C56E8F5F /* WXDivComponent.m in Sources */,
+				6653346DC98D8BCCC52B9738626C7790 /* WXDomModule.m in Sources */,
+				555FA657C3A80297FC81FEBABFE10332 /* WXEditComponent.m in Sources */,
+				6F85B1521F7951CFA529EF2C465854CB /* WXEmbedComponent.m in Sources */,
+				092E6D288B2F50757800B72CC1207834 /* WXErrorView.m in Sources */,
+				E1DB0E945BF6DB587E49FE65B2EA1BB1 /* WXExtendCallNativeManager.m in Sources */,
+				FC4AF49CC415854CA34E55EEEB3FC3C1 /* WXFooterComponent.m in Sources */,
+				61694438CBECF634D08BCAF982F25460 /* WXGlobalEventModule.m in Sources */,
+				32352BBD763658DBE6ACDDEED18CA896 /* WXHandlerFactory.m in Sources */,
+				CD6829341FADC31EF0701E8A591B876E /* WXHeaderComponent.m in Sources */,
+				908B0CA00082E6E016BB720300AB017A /* WXImageComponent.m in Sources */,
+				7369B10FE11B4E5D9CBB6780C2DF864D /* WXIndicatorComponent.m in Sources */,
+				CC3FD610901B44E51B4470BBB012E617 /* WXInnerLayer.m in Sources */,
+				E37201009EA6AC847040D149C9D521F1 /* WXInstanceWrap.m in Sources */,
+				971789C5802540FE31E84BFF742F89B6 /* WXInvocationConfig.m in Sources */,
+				D6C819FB9692861335AA8707469A77BA /* WXJSASTParser.mm in Sources */,
+				6E8A1B9E8B4E52CEE6A3C26756DFB935 /* WXJSCoreBridge.m in Sources */,
+				78A862149DFBCCD3673BBAF88605CDD7 /* WXJSExceptionInfo.m in Sources */,
+				69AD45EADDC208C2F56F80EF829F0646 /* WXLayer.m in Sources */,
+				8CC25FDF07701135D86EC84B0A4EEED0 /* WXLength.m in Sources */,
+				7956A40FAA92382C326D7065FE19B7F5 /* WXListComponent.m in Sources */,
+				BB76CF6ACB36730275046F2CA2F7934F /* WXLoadingComponent.m in Sources */,
+				AA711DD80715AFF066C1A18A0391471A /* WXLoadingIndicator.m in Sources */,
+				D833289D89F332DC096D502BD193C585 /* WXLog.m in Sources */,
+				8400C49F780169A7BF4B7EAEFAEF80D3 /* WXMetaModule.m in Sources */,
+				26890F77AABB61007BEC044D5CBB92F4 /* WXModalUIModule.m in Sources */,
+				A57E15DE3519A9297414A55A5718C1A8 /* WXModuleFactory.m in Sources */,
+				2FA6C05D94FEC653DF11744805CFFE00 /* WXModuleMethod.m in Sources */,
+				58B680F4C21C9DE09AF43ACB96AD19B4 /* WXMonitor.m in Sources */,
+				C5B7ACB428A0E8855925642C49E32A05 /* WXMultiColumnLayout.m in Sources */,
+				76ED26581C15247FC237B05A7C856144 /* WXNavigationDefaultImpl.m in Sources */,
+				40CB35E608B8DF0387045EDF20159CA5 /* WXNavigatorModule.m in Sources */,
+				6F241FB0F5354A3BC2C87E812B952098 /* WXPickerModule.m in Sources */,
+				AC9225B192CD1978A34807FDA668FC6A /* WXPolyfillSet.m in Sources */,
+				48E88A35A9248979795864398B4CBBD2 /* WXPrerenderManager.m in Sources */,
+				4F39AF2873903F87EAD3752931D2EC64 /* WXRecycleListComponent.m in Sources */,
+				96D9BB036C3E459F3E5DEDDB839F3CA9 /* WXRecycleListDataManager.m in Sources */,
+				73844DC52B0FF14F8592A31C90AAC1E3 /* WXRecycleListLayout.m in Sources */,
+				1F75F8B4CE0C7A48293F1F6173B1D9D3 /* WXRecycleListTemplateManager.m in Sources */,
+				C248613BB7D0F879CF966D715D800717 /* WXRecycleListUpdateManager.m in Sources */,
+				7A4CB2B1192B007743699905CB453F47 /* WXRecyclerComponent.m in Sources */,
+				D8CDA2CF72797C458D88FE7491AB675F /* WXRecyclerDataController.m in Sources */,
+				9FA23D2B1357D17A5A211CEF38EACE27 /* WXRecyclerDragController.m in Sources */,
+				9A96A822CFA524F4FC10FF038868E9DF /* WXRecyclerUpdateController.m in Sources */,
+				9258642592906BBE675F0E5942222C90 /* WXRefreshComponent.m in Sources */,
+				D60D7F531FB17D1453755D8DE7EA79F4 /* WXResourceLoader.m in Sources */,
+				879662DD81FA9FBF6CA0A30587B3812E /* WXResourceRequest.m in Sources */,
+				C8CC40CD46740D1EF83A383295B5FAB0 /* WXResourceRequestHandlerDefaultImpl.m in Sources */,
+				462F46EAEEAA729549DD0EFC68F7BF2F /* WXResourceResponse.m in Sources */,
+				003DF2839ABEA59FB025F165FDE9A83E /* WXRootView.m in Sources */,
+				800EEE0439670A0CE64C0B360F843DDD /* WXRootViewController.m in Sources */,
+				326CD7218CE9DA59BA84A6C80FB31044 /* WXRoundedRect.mm in Sources */,
+				134FB0332233628065EA0C0CAE93A3F9 /* WXRuleManager.m in Sources */,
+				87BA48B8FE9DBC954F75E0C7C0607361 /* WXScrollerComponent.m in Sources */,
+				BE9EC3388625FC7D4D3DB14C2F83AFFE /* WXSDKEngine.m in Sources */,
+				16B44C9CE4000CBBA4E4B5F8B014E53F /* WXSDKInstance.m in Sources */,
+				277825EEEA420A70CF3FB897472829F5 /* WXSDKManager.m in Sources */,
+				107477ADCE7B9B840DAA500C0AFA7490 /* WXSectionDataController.m in Sources */,
+				A9F64E07904D7228BF8FEC92BF1B06E4 /* WXServiceFactory.m in Sources */,
+				86470BC9C9970B6F01A1BF8E7E69A685 /* WXSimulatorShortcutManager.m in Sources */,
+				60700A4598B4B2427B2E47BE11CFEB51 /* WXSliderComponent.m in Sources */,
+				4D53B07299DFACC751F1A76C77256646 /* WXSliderNeighborComponent.m in Sources */,
+				A99FA2FF2ADF05A51FFA816FD457F3BA /* WXStorageModule.m in Sources */,
+				C9B8D94764EE7D223AC733A7FF905604 /* WXStreamModule.m in Sources */,
+				0DBF0C517EB38B9CD4E092096B6B41BD /* WXSwitchComponent.m in Sources */,
+				3AC95AD88ABA408EBA34547505C1293F /* WXTextAreaComponent.m in Sources */,
+				C02DADA8E72C6F1D0A5E44A760B26474 /* WXTextComponent.m in Sources */,
+				489279C067992F17EB52E885E7435296 /* WXTextInputComponent.m in Sources */,
+				17A023632D943D7A6F3573F918F17B4C /* WXThreadSafeCounter.m in Sources */,
+				C7E8043AF314FB3D016A50972647220E /* WXThreadSafeMutableArray.m in Sources */,
+				7514ABAE6EB482D483D111F180BE5F4B /* WXThreadSafeMutableDictionary.m in Sources */,
+				2A4E68A65CFBCEDDC56378E9FF1DC847 /* WXTimerModule.m in Sources */,
+				C69D259C413F40963F37FD5818029CE3 /* WXTracingManager.m in Sources */,
+				63A90A7603C239D1588D2D4BF70A9BFD /* WXTransform.m in Sources */,
+				5F24CB17AD601F5ACC2BAB6CAEA8B3A9 /* WXTransition.m in Sources */,
+				DF059D2FD5E9E6762C777B819E3A299E /* WXURLRewriteDefaultImpl.m in Sources */,
+				A22AF4375AA9E4DDCA3F858BE8C8B643 /* WXUtility.m in Sources */,
+				013724BFD84FED68BA5B10D622BDE494 /* WXVideoComponent.m in Sources */,
+				20EEB45D19F4369F9E3599B8975E7C2E /* WXView.m in Sources */,
+				590E199776E5232F4F19BBAF58911FA2 /* WXVoiceOverModule.m in Sources */,
+				682B28E055ED29ED98AF3A256A51EC36 /* WXWeakObjectWrapper.m in Sources */,
+				490961B98FF70282D91936A96E71A143 /* WXWebComponent.m in Sources */,
+				D50ECD0CCF8083B8EAF1F29E1AB4671E /* WXWebSocketLoader.m in Sources */,
+				6739A31B247A4D14A6F7AE4C34DAC3D1 /* WXWebSocketModule.m in Sources */,
+				4C679A6D33464F40987C584453EE4E66 /* WXWebViewModule.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2AA70AB239C63BB28AA00579517A46F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				76230324AFA0B72B0CE82B4D27634D7C /* Pods-WeexSDK_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C4F0F3B4831A1433227A0A43AD6F514C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D7F0C333CAD88AED07BB0E312AAB6138 /* ReplaceMe.m in Sources */,
-				623123496251B29A11ED9E188FCA17A7 /* WeexSDK-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +1635,38 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		981827085E92928E16C0437D240D3DE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E8D0497B5232E808A70D7EDB3498F7A /* WeexSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WeexSDK/WeexSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WeexSDK/WeexSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WeexSDK/WeexSDK.modulemap";
+				PRODUCT_MODULE_NAME = WeexSDK;
+				PRODUCT_NAME = WeexSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		B0087CB4594321EF41619F3181FE120E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -466,69 +1792,6 @@
 			};
 			name = Debug;
 		};
-		D44E225AC217666E775DA3CE6FD5DD55 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B764ACB5C048A3958EBF078E9F9C723D /* WeexSDK.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WeexSDK/WeexSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WeexSDK/WeexSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WeexSDK/WeexSDK.modulemap";
-				PRODUCT_MODULE_NAME = WeexSDK;
-				PRODUCT_NAME = WeexSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E75C2E343EFDC319AE604760E256A1B0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B764ACB5C048A3958EBF078E9F9C723D /* WeexSDK.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WeexSDK/WeexSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WeexSDK/WeexSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WeexSDK/WeexSDK.modulemap";
-				PRODUCT_MODULE_NAME = WeexSDK;
-				PRODUCT_NAME = WeexSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		F855F76CCE41017082BE1936FC3B0F72 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6D35109E961C2FF45C612DC202E1803A /* Pods-WeexSDK_Tests.release.xcconfig */;
@@ -563,14 +1826,45 @@
 			};
 			name = Release;
 		};
+		FEA793E83E41DE60BA1B1160A14D7A73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E8D0497B5232E808A70D7EDB3498F7A /* WeexSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WeexSDK/WeexSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WeexSDK/WeexSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WeexSDK/WeexSDK.modulemap";
+				PRODUCT_MODULE_NAME = WeexSDK;
+				PRODUCT_NAME = WeexSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		26809FCAF5D0E487901D251D392640F0 /* Build configuration list for PBXNativeTarget "WeexSDK" */ = {
+		27B7E39CC5F4F3083A9D3DF8903C082D /* Build configuration list for PBXNativeTarget "WeexSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E75C2E343EFDC319AE604760E256A1B0 /* Debug */,
-				D44E225AC217666E775DA3CE6FD5DD55 /* Release */,
+				FEA793E83E41DE60BA1B1160A14D7A73 /* Debug */,
+				981827085E92928E16C0437D240D3DE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
