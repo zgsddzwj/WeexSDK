@@ -1,5 +1,5 @@
 PODS:
-  - WeexSDK (0.1.0)
+  - WeexSDK (0.1.2)
 
 DEPENDENCIES:
   - WeexSDK (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WeexSDK: 3a4c3f3340dc650ce30d2fbdebc242a7423a443d
+  WeexSDK: 599c4b21d3dd7281813144e1fca84a0f916563e9
 
 PODFILE CHECKSUM: abb908e0a2f7ccd0dcd96739ee8864e67421669b
 

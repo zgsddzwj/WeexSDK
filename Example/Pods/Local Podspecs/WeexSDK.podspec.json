@@ -1,6 +1,6 @@
 {
   "name": "WeexSDK",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "summary": "A short description of WeexSDK.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/adward.wang/WeexSDK",
@@ -13,10 +13,11 @@
   },
   "source": {
     "git": "https://github.com/zgsddzwj/WeexSDK.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "WeexSDK/Classes/**/*"
+  "source_files": "WeexSDK/Classes/**/*",
+  "resources": "WeexSDK/Assets/*"
 }
